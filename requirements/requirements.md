@@ -7,14 +7,13 @@ Decibel Detect - Requirements
   Matthew Danese -
   Aaron Polite - 
 
-
 • Link to each project relevant artifact such as your git repo (this can be empty for now).
-
 
 • List communication channels/tools with corresponding use/communication policies (check main
 course page for communication channels and policies.)
 
 2. Product description (20%)
+
 DecibalDetect is a web and mobile application designed to map noise pollution in urban
 environments. By allowing users to upload the decibel level of their current area (using the
 smartphone mic), DecibelDetect captures real-time noise data and visualizes it on an interactive
