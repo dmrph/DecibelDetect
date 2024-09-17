@@ -1,6 +1,7 @@
 Decibel Detect - Requirements
 
 1. Team info & policies (10%)
+
 • Team members and roles:
   David Murphy -
   Matthew Danese -
