@@ -6,7 +6,11 @@ Decibel Detect - Requirements
   David Murphy -
   Matthew Danese -
   Aaron Polite - 
+
+
 • Link to each project relevant artifact such as your git repo (this can be empty for now).
+
+
 • List communication channels/tools with corresponding use/communication policies (check main
 course page for communication channels and policies.)
 
