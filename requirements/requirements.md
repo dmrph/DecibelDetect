@@ -60,9 +60,13 @@ this template:
 
 4. Non-functional Requirements (10%)
 Describe at least three non-functional requirements, e.g., related to scalability, usability, security and privacy, etc. 1 2
+
 • Security for user data is extremely important for our application. We need to ensure user data is stored properly with good security
 measures in place to avoid any data misuse.
+
 • Scalability is important for this application since most of its use cases come with the more users it has. If nobody is using the app or uploading noise data, our map wouldn't be accurate and would only show the areas that are recorded.
+
+• Usability is also a concern for us since the app needs to be clean and concise, allowing for users to easily upload data, and detect areas with lots of noise pollution. We want to avoid clutter and make sure the UI is easy enough to use for the users to have good, safe, and effective experience.
 
 
 6. External Requirements (10%)
