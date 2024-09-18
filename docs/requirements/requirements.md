@@ -33,26 +33,26 @@ DecibelDetect aims to empower city dwellers with the ability to understand and n
 
 Each team member must come up with and describe at least one use case of the product, following this template:
 
-# Matt: Submitting Noise Data to DecibelDetect
+### Matt: Submitting Noise Data to DecibelDetect
 
-### Actors
+#### Actors
 - **Primary Actor:** User (City Dweller with a smartphone)
 - **System Actor:** DecibelDetect Mobile/Web Application
 
-### Triggers
+#### Triggers
 - User wants to contribute noise level data in their current location to the DecibelDetect platform.
 
-### Preconditions
+#### Preconditions
 - User has installed the DecibelDetect mobile app or has access to the web application.
 - User's smartphone microphone is functioning.
 - User has allowed microphone access for the DecibelDetect application.
 - User has a stable internet connection to upload the data.
 
-### Postconditions (Success Scenario)
+#### Postconditions (Success Scenario)
 - The decibel level is successfully uploaded and visualized on the interactive noise pollution map.
 - The community has an updated view of noise pollution in that area.
   
-### List of Steps (Success Scenario)
+#### List of Steps (Success Scenario)
 1. User opens the DecibelDetect mobile/web application.
 2. The app requests microphone access, if not previously granted.
 3. User navigates to the "Submit Noise Data" feature.
@@ -64,12 +64,12 @@ Each team member must come up with and describe at least one use case of the pro
 9. DecibelDetect uploads the data to the server and updates the map with the new noise level reading.
 10. The interactive map refreshes, showing the updated noise pollution information for that location.
 
-### Extensions/Variations of the Success Scenario
+#### Extensions/Variations of the Success Scenario
 - **Step 4 Variation:** If the user has previously recorded data, the app may show a history of prior submissions and allow the user to compare recent measurements.
 - **Step 6 Variation:** If the user chooses, they can record for a longer period of time (e.g., 30 seconds or 1 minute) for more accurate measurements.
 - **Step 8 Variation:** After submission, the app may prompt the user to provide additional context (e.g., time of day, type of noise) for improved data quality.
 
-### Exceptions (Failure Conditions and Scenarios)
+#### Exceptions (Failure Conditions and Scenarios)
 - **Microphone Access Denied:** If the user denies microphone access, the app will display a message explaining that microphone access is required to capture noise levels, and direct the user to their device settings to enable it.
 - **Poor Internet Connection:** If the user's internet connection is unstable or unavailable, the app will save the noise data locally and attempt to upload it once the connection is restored.
 - **Low Device Storage:** If the user's device is low on storage, the app will notify the user and prevent data capture until space is freed.
