@@ -48,13 +48,13 @@
 
 ### Aaron:
   - **Goals from Last Week:** 
-    - TBD
+    - Research React
   
   - **Progress and Issues:** 
-    - TBD
+    - Researched react and the library that comprises it.
   
   - **Plans and Goals:**
-    - TBD
+    - Become proficient in React.
 
 ---
 
