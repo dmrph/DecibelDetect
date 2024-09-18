@@ -75,6 +75,7 @@ Each team member must come up with and describe at least one use case of the pro
 - **Low Device Storage:** If the user's device is low on storage, the app will notify the user and prevent data capture until space is freed.
 - **Inaccurate Noise Reading:** If the app detects a potential issue with the microphone (e.g., hardware malfunction or obstruction), it will alert the user to reattempt the measurement after troubleshooting.
 
+---
 
 ### David: Viewing Noise Pollution Heatmap
 
