@@ -4,7 +4,7 @@
 
 ### Team Members and Roles:
 - **David Murphy** - 
-- **Matthew Danese** - 
+- **Matthew Danese** - Scrum Master
 - **Aaron Polite** - 
 - **Rahul Reji** - 
 
