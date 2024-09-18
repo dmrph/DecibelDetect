@@ -34,9 +34,9 @@
 
 ---
 
-### Matt(hew):
+### Matt:
   - **Goals from Last Week:** 
-    - TBD
+    - Started research on PostgreSQL and MongoDB
   
   - **Progress and Issues:** 
     - Researched ways to store the data in the databases
