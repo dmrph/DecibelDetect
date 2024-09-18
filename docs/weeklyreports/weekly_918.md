@@ -58,15 +58,17 @@
 
 ---
 
-### Rahul:
-  - **Goals from Last Week:** 
-    - TBD
-  
-  - **Progress and Issues:** 
-    - TBD
-  
-  - **Plans and Goals:**
-    - TBD
+### Rahul: Subscribing to Noise Alerts
+
+#### Goals from Last Week:
+- Research decibel detecting processes thoroughly
+
+#### Progress and Issues:
+- Gathered information on different notification systems and user engagement strategies.
+
+#### Plans and Goals:
+- Implement a prototype for user subscription to noise alerts, allowing them to set their preferred noise thresholds.
+
 
 ---
 
