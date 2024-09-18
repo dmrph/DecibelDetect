@@ -64,10 +64,12 @@
 - Research decibel detecting processes thoroughly
 
 #### Progress and Issues:
-- Gathered information on different notification systems and user engagement strategies.
+- Identified key features for the reporting interface, including noise type selection and GPS integration.
 
 #### Plans and Goals:
-- Implement a prototype for user subscription to noise alerts, allowing them to set their preferred noise thresholds.
+- Implement the "Report Noise Source" feature in the app, allowing users to submit noise reports with location and audio evidence.
+
+
 
 
 ---
