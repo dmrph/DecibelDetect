@@ -1,6 +1,6 @@
 # Decibel Detect - Requirements
 
-## 1. Team Info & Policies (10%)
+## 1. Team Info & Policies
 
 ### Team Members and Roles:
 - **David Murphy** - Product Owner, Dev Team
@@ -15,7 +15,7 @@
 - Github for version control
 - Discord for communication & meetings
 
-## 2. Product Description (20%)
+## 2. Product Description
 
 **DecibelDetect** is a web and mobile application designed to map noise pollution in urban environments. By allowing users to upload the decibel level of their current area (using the smartphone mic), DecibelDetect captures real-time noise data and visualizes it on an interactive map. Users are then able to identify and navigate away from the noisy areas, promoting quieter and healthier urban living spaces.
 
@@ -29,7 +29,7 @@ DecibelDetect aims to empower city dwellers with the ability to understand and n
 ### Goals:
 - Scale the application to fill more use cases.
 
-## 3. Use Cases (Functional Requirements) (30%)
+## 3. Use Cases (Functional Requirements)
 
 Each team member must come up with and describe at least one use case of the product, following this template:
 
@@ -161,7 +161,7 @@ Each team member must come up with and describe at least one use case of the pro
 
   
 
-## 4. Non-Functional Requirements (10%)
+## 4. Non-Functional Requirements
 
 ### Security:
 - User data must be securely stored with appropriate security measures to prevent data misuse.
@@ -180,7 +180,7 @@ Each team member must come up with and describe at least one use case of the pro
 - The system must be well-documented for future developers to make enhancements.
 - The project’s scope should match the available team resources.
 
-## 6. Team Process Description (20%)
+## 6. Team Process Description
 
 ### Software Toolset:
 - Define and justify the software toolset used, including programming languages, data sources, project trackers, and other tools.
