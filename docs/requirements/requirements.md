@@ -76,6 +76,46 @@ Each team member must come up with and describe at least one use case of the pro
 - **Inaccurate Noise Reading:** If the app detects a potential issue with the microphone (e.g., hardware malfunction or obstruction), it will alert the user to reattempt the measurement after troubleshooting.
 
 
+### David: Viewing Noise Pollution Heatmap
+
+#### Actors
+- **Primary Actor:** User (City Dweller with a smartphone or desktop device)
+- **System Actor:** DecibelDetect Mobile/Web Application
+
+#### Triggers
+- User wants to view current noise pollution levels in a specific area or neighborhood using the DecibelDetect platform.
+
+#### Preconditions
+- User has access to the DecibelDetect mobile app or web application.
+- The app has successfully collected and uploaded noise data from users in the area.
+- User's device has access to the internet to load the map and data.
+
+#### Postconditions (Success Scenario)
+- The user successfully views a heatmap showing noise pollution levels in real-time for their selected location.
+- The user is able to identify areas with high or low noise levels and make decisions accordingly (e.g., avoiding noisy areas).
+
+#### List of Steps (Success Scenario)
+1. User opens the DecibelDetect mobile/web application.
+2. User navigates to the "View Heatmap" feature.
+3. The app loads a map of the user's current location or a location specified by the user.
+4. The app overlays noise pollution data as a heatmap on top of the map interface.
+5. The user is able to zoom in and out, and pan across the map to explore different areas.
+6. The app provides a key explaining the noise levels (e.g., color-coded ranges from quiet to noisy).
+7. The user can tap on specific regions to view more detailed information about the noise levels (e.g., exact decibel readings, time of recordings).
+8. User successfully identifies noisy or quiet areas and exits the heatmap when finished.
+
+#### Extensions/Variations of the Success Scenario
+- **Step 3 Variation:** The user may choose a location different from their current location (e.g., by entering a city name or postal code).
+- **Step 6 Variation:** The app may allow the user to filter the noise data by time (e.g., showing noise levels at different times of day or during different events).
+- **Step 7 Variation:** The app may show additional context such as the type of noise (e.g., traffic, construction) if available.
+
+#### Exceptions (Failure Conditions and Scenarios)
+- **No Data Available:** If there is no available noise data for the selected area, the app will display a message indicating that data is unavailable and suggest users to contribute data.
+- **Poor Internet Connection:** If the user's internet connection is unstable, the app may fail to load the heatmap, and a message will be displayed prompting the user to retry once the connection is restored.
+- **GPS Location Error:** If the user’s device has trouble retrieving GPS location, the app will prompt the user to manually enter a location or ensure that location services are enabled.
+
+
+
 1. **Actors**
 2. **Triggers**
 3. **Preconditions**
