@@ -16,4 +16,4 @@ DecibelDetect is a community-driven application aimed at helping users upload an
 4. **Plan**: Use the data to find quieter areas in your city or neighborhood.
 
 ## Documentation
-For more detailed documentation on app features and usage, please refer to our [Requirements Document](requirements/requirements.md).
+For more detailed documentation on app features and usage, please refer to our [Requirements Document](docs/requirements/requirements.md).
