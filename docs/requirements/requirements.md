@@ -156,25 +156,44 @@ Each team member must come up with and describe at least one use case of the pro
 - GPS Location Error: If the app cannot retrieve the user’s GPS location, it will display a message suggesting the user manually input their location for noise monitoring.
 ---
 
-### Rahul: 
+### Rahul: Reporting Noise Sources
 
 #### Actors
 - **Primary Actor:** User
 - **System Actor:** DecibelDetect Mobile/Web Application
 
 #### Triggers
+- User wants to report a specific noise source (e.g., construction, traffic, or loud music) in their vicinity to raise awareness and contribute to community insights.
 
 #### Preconditions
 - User has access to the DecibelDetect mobile app or web application.
+- User's device has access to the internet.
+- User is logged into their account (if applicable).
 
 #### Postconditions (Success Scenario)
+- The noise source report is successfully submitted and stored in the system.
+- The community and local authorities are informed about the noise issue, allowing for targeted responses and improvements.
 
 #### List of Steps (Success Scenario)
 1. User opens the DecibelDetect mobile/web application.
+2. User navigates to the "Report Noise Source" feature.
+3. The app displays a prompt asking the user to specify the type of noise (e.g., construction, traffic, loud music).
+4. User selects the type of noise from a predefined list or types in a custom description.
+5. The app automatically captures the user's current location (using GPS) and displays it for confirmation.
+6. User can optionally record a short audio clip to provide evidence of the noise source.
+7. User submits the report.
+8. The app confirms successful submission and displays a message thanking the user for their contribution.
+9. The report is stored in the backend for analysis, and community members are notified about the noise issue.
 
 #### Extensions/Variations of the Success Scenario
+- **Step 3 Variation:** Users may be able to select multiple noise types or provide additional context (e.g., duration of noise).
+- **Step 6 Variation:** Users may attach photos or videos of the noise source to strengthen their report.
+- **Step 8 Variation:** After submission, the app may provide users with a link to view ongoing reports in their area or related community discussions.
 
 #### Exceptions (Failure Conditions and Scenarios)
+- **No Location Access:** If the app cannot access the user's GPS location, it will prompt the user to manually enter their location or ensure location services are enabled.
+- **Poor Internet Connection:** If the internet connection is unstable, the app will save the report locally and attempt to upload it once the connection is restored.
+- **Incomplete Report:** If the user attempts to submit a report without providing necessary information (e.g., noise type), the app will display an error message prompting the user to complete all required fields.
 
   
 
