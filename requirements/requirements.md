@@ -69,7 +69,7 @@ measures in place to avoid any data misuse.
 • Usability is also a concern for us since the app needs to be clean and concise, allowing for users to easily upload data, and detect areas with lots of noise pollution. We want to avoid clutter and make sure the UI is easy enough to use for the users to have good, safe, and effective experience.
 
 
-6. External Requirements (10%)
+5. External Requirements (10%)
 In addition to the requirements stated above, the Nate imposes the following requirements on your
 product:
 • The product must be robust against errors that can reasonably be expected to occur, such as invalid
@@ -85,7 +85,7 @@ Make sure that these requirements, if applicable to your product, are specialize
 included in your document—do not copy and paste these requirements verbatim. You may leave this as a
 separate section or fold its items into the other requirements sections.
 
-7. Team process description (20%)
+6. Team process description (20%)
 Describe your semeseter-long development process.
 • Specify and justify the software toolset you will use.
 • Define and justify each team member’s role: why does your team need this role filled, and why is
