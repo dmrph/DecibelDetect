@@ -34,37 +34,37 @@
 
 ### Matt(hew):
   - **Goals from Last Week:** 
-    - 
+    - TBD
   
   - **Progress and Issues:** 
-    - 
+    - TBD
   
   - **Plans and Goals:**
-    - 
+    - TBD
 
 ---
 
 ### Aaron:
   - **Goals from Last Week:** 
-    - 
+    - TBD
   
   - **Progress and Issues:** 
-    - 
+    - TBD
   
   - **Plans and Goals:**
-    - 
+    - TBD
 
 ---
 
 ### Rahul:
   - **Goals from Last Week:** 
-    - None specified.
+    - TBD
   
   - **Progress and Issues:** 
-    - None specified.
+    - TBD
   
   - **Plans and Goals:**
-    - Provide updates and contribute to the frontend (TBD).
+    - TBD
 
 ---
 
