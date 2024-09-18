@@ -33,7 +33,7 @@ DecibelDetect aims to empower city dwellers with the ability to understand and n
 
 Each team member must come up with and describe at least one use case of the product, following this template:
 
-## Use Case: Submitting Noise Data to DecibelDetect
+## Matt: Submitting Noise Data to DecibelDetect
 
 ### Actors
 - **Primary Actor:** User (City Dweller with a smartphone)
