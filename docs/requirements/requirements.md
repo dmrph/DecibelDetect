@@ -124,19 +124,36 @@ Each team member must come up with and describe at least one use case of the pro
 - **System Actor:** DecibelDetect Mobile/Web Application
 
 #### Triggers
-
+- User wants to receive notifications when noise levels in their current area exceed a certain threshold, indicating a noisy environment.
 #### Preconditions
 - User has access to the DecibelDetect mobile app or web application.
+- The app has collected real-time noise data from users in the area.
+- User’s device has access to the internet.
+- User has enabled location services and notifications in the app.
 
 #### Postconditions (Success Scenario)
+- The user receives a notification when noise levels in their current location exceed the set threshold.
+- The user is informed about the noise pollution and can decide to stay or move to a quieter location.
 
 #### List of Steps (Success Scenario)
 1. User opens the DecibelDetect mobile/web application.
+2. User navigates to the "Noise Alerts" settings.
+3. The app prompts the user to select a noise threshold (e.g., 70 decibels) for receiving notifications.
+4. User selects a threshold and confirms their preferences.
+5. The app continuously monitors noise levels in the background, using GPS to track the user’s location and real-time noise data from the platform.
+6. When noise levels in the user’s vicinity exceed the threshold, the app sends a push notification to the user’s device.
+7. The notification includes details such as the current noise level, location, and potential sources of noise (if available).
+8. User can tap the notification to view the noise heatmap and decide whether to stay or navigate to a quieter area.
 
 #### Extensions/Variations of the Success Scenario
-
+- Step 3 Variation: The user may choose different thresholds for different times of day (e.g., a lower threshold at night).
+- Step 7 Variation: The app may provide additional context such as specific times when noise levels tend to spike, or recommendations for quieter areas nearby.
+- Step 8 Variation: The user can customize the frequency of alerts (e.g., only receive notifications every 30 minutes or when moving to a new area).
 #### Exceptions (Failure Conditions and Scenarios)
-
+- No Data Available: If there is insufficient real-time data in the user’s location, the app will notify the user that noise data is unavailable and encourage them to contribute data.
+- Poor Internet Connection: If the user’s internet connection is unstable, the app may fail to send timely notifications, and a message will appear when the connection is restored.
+- Battery Saving Mode: If the user’s device is in battery-saving mode, the app may limit background activity and delay notifications, prompting the user to adjust their settings.
+- GPS Location Error: If the app cannot retrieve the user’s GPS location, it will display a message suggesting the user manually input their location for noise monitoring.
 ---
 
 ### Rahul: 
