@@ -3,7 +3,9 @@
 ## Team Report
 
 ### Goals from Last Week:
-- tbd
+- Start working on audio input functionality and geolocation integration.
+- Set up the backend with Express.js and database handling. ? (Maybe Python)
+- Begin work on the frontend interface using React Native.
 
 ### Progress and Issues:
 - tbd
