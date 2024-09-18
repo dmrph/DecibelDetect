@@ -1,14 +1,14 @@
 9/18 Status Report
 
-Team report (status update for your prof, including an agenda for the project meeting).
-(N/A FIRST WEEK)
+Team report (status update for your prof, including an agenda for the project meeting):
+* (N/A FIRST WEEK)
 
-Contributions of individual team members.
-David - Setup github/docs and invited members
+Contributions of individual team members:
+* David - Setup github/docs and invited members
 
 Plans/Goals:
-Start working on a simple program that accepts audio as an input and work on geolocating it,
-Discuss technology in further detail as well as features of the application - 
+* Start working on a simple program that accepts audio as an input and work on geolocating it
+* Discuss technology in further detail as well as features of the application - 
 
 Frontend: After further research, using React Native enables cross-platform compatibility across
 IOS and Android as well as allows a web app built with React.js to cater to Desktop usability.
