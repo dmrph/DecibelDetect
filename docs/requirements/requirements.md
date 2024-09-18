@@ -3,17 +3,17 @@
 ## 1. Team Info & Policies (10%)
 
 ### Team Members and Roles:
-- **David Murphy** - 
-- **Matthew Danese** - Scrum Master
-- **Aaron Polite** - 
-- **Rahul Reji** - 
+- **David Murphy** - Product Owner, Dev Team
+- **Matthew Danese** - Scrum Master, Dev Team
+- **Aaron Polite** - Dev Team
+- **Rahul Reji** - Dev Team
 
 ### Github Repository:
 - [Decibel Detect Repository](https://github.com/dmrph/DecibelDetect)
 
 ### Communication Channels/Tools:
 - Github for version control
-- Discord for communication abut meetings and discuss outside of the class
+- Discord for communication & meetings
 
 ## 2. Product Description (20%)
 
