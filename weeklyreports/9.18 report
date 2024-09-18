@@ -1,10 +1,20 @@
-Each status report must be a markdown file and must include the following two sections:
+9/18 Status Report
 
 Team report (status update for your prof, including an agenda for the project meeting).
+(N/A FIRST WEEK)
 
 Contributions of individual team members.
+David - Setup github/docs and invited members
 
+Plans/Goals:
+Start working on a simple program that accepts audio as an input and work on geolocating it,
+Discuss technology in further detail as well as features of the application - 
+
+Frontend: After further research, using React Native enables cross-platform compatibility across
+IOS and Android as well as allows a web app built with React.js to cater to Desktop usability.
+Backend: A Node.js server using Express.js framework to handle API requests, process data, etc
+Database: Databases such as MongoDB or PostgreSQL for data storage such as user profiles
+and noise recording metadata. Can pair with PostGIS for better geographical data handling
+Collection/Visualization: Smartphones’ built-in mics for collecting noise data, then geolocated
+using GPS. Integration with Google Maps API to render the noise data on a geographic map
 Both sections should have the following three subsections -- each about a paragraph or organized as bullet points.
-The first subsection is easy. It should be an exact copy of the third section from last week (i.e., goals from a week ago). It can be empty for the first week.
-The second subsection should report on progress and issues: what you did, what worked, what you learned, where you had trouble, and where you are stuck.
-The third subsection should outline your plans and goals for the following week. Bullet points are fine. If tasks from one week aren't yet complete, they should roll over into tasks for the next week, with an updated estimate for time to completion.
