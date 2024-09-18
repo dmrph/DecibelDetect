@@ -27,11 +27,13 @@ only enhances data accuracy and coverage but also increases user engagement thro
 participation.
 
 Major Features: 
+
 • Heatmap to display areas with greater noise pollution 
 • data/decibel upload using smartphone
 • Live map updates
 
 Goals:
+
 • Scale application to fill more use cases
 
 Use the product description of the project proposal as a starting point. Revise it based on feedback you
