@@ -29,12 +29,6 @@ Contributions of individual team members:
   • Plans and Goals:
 
 
-• As a team:
-  • Goals from last week:
-  • Progress and Issues: 
-  • Plans and Goals:
-    - Further discuss technology we want to use and start working on audio input.
-
 Frontend: After further research, using React Native enables cross-platform compatibility across
 IOS and Android as well as allows a web app built with React.js to cater to Desktop usability.
 Backend: A Node.js server using Express.js framework to handle API requests, process data, etc
