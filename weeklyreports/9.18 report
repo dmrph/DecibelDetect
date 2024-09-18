@@ -17,4 +17,3 @@ Database: Databases such as MongoDB or PostgreSQL for data storage such as user 
 and noise recording metadata. Can pair with PostGIS for better geographical data handling
 Collection/Visualization: Smartphones’ built-in mics for collecting noise data, then geolocated
 using GPS. Integration with Google Maps API to render the noise data on a geographic map
-Both sections should have the following three subsections -- each about a paragraph or organized as bullet points.
