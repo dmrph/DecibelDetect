@@ -172,7 +172,7 @@ Each team member must come up with and describe at least one use case of the pro
 ### Usability:
 - The app should provide a clean, intuitive user interface, enabling easy data uploads and detection of noisy areas. The focus should be on simplicity, avoiding clutter.
 
-## 5. External Requirements (10%)
+## 5. External Requirements
 
 - The product must be robust against expected errors, such as invalid user input.
 - The product must be easily installable by users, with a public URL for web services or a straightforward installation method for stand-alone applications.
