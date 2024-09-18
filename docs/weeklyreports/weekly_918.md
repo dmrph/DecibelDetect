@@ -37,10 +37,10 @@
     - TBD
   
   - **Progress and Issues:** 
-    - TBD
+    - Researching ways to store the data in the database
   
   - **Plans and Goals:**
-    - TBD
+    - Start downloading the necessary databses needed to store the data (MongoDB or PostgreSQL)
 
 ---
 
