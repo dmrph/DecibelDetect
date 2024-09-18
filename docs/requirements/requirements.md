@@ -19,7 +19,7 @@
 
 **DecibelDetect** is a web and mobile application designed to map noise pollution in urban environments. By allowing users to upload the decibel level of their current area (using the smartphone mic), DecibelDetect captures real-time noise data and visualizes it on an interactive map. Users are then able to identify and navigate away from the noisy areas, promoting quieter and healthier urban living spaces.
 
-DecibelDetect aims to empower city dwellers with the ability to understand and navigate the sounds of their environment. While other noise mapping tools exist, they often rely on non-real-time data or are limited in geographic scope. DecibelDetect differentiates itself by providing real-time noise level readings contributed by a community of users, offering a comprehensive, up-to-date map of urban noise pollution. This community-driven approach enhances data accuracy, coverage, and user engagement.
+DecibelDetect aims to empower people from cities/suburbs with the ability to understand and navigate the sounds of their environment. While other noise mapping tools exist, they often rely on non-real-time data or are limited in geographic scope. DecibelDetect differentiates itself by providing real-time noise level readings contributed by a community of users, offering a comprehensive, up-to-date map of urban noise pollution. This community-driven approach enhances data accuracy, coverage, and user engagement.
 
 ### Major Features:
 - Heatmap to display areas with greater noise pollution.
@@ -36,7 +36,7 @@ Each team member must come up with and describe at least one use case of the pro
 ### Matt: Submitting Noise Data to DecibelDetect
 
 #### Actors
-- **Primary Actor:** User (City Dweller with a smartphone)
+- **Primary Actor:** User (Person with a smartphone)
 - **System Actor:** DecibelDetect Mobile/Web Application
 
 #### Triggers
@@ -80,7 +80,7 @@ Each team member must come up with and describe at least one use case of the pro
 ### David: Viewing Noise Pollution Heatmap
 
 #### Actors
-- **Primary Actor:** User (City Dweller with a smartphone or desktop device)
+- **Primary Actor:** User
 - **System Actor:** DecibelDetect Mobile/Web Application
 
 #### Triggers
@@ -120,7 +120,7 @@ Each team member must come up with and describe at least one use case of the pro
 ### Aaron: 
 
 #### Actors
-- **Primary Actor:** User (City Dweller with a smartphone or desktop device)
+- **Primary Actor:** User
 - **System Actor:** DecibelDetect Mobile/Web Application
 
 #### Triggers
@@ -142,7 +142,7 @@ Each team member must come up with and describe at least one use case of the pro
 ### Rahul: 
 
 #### Actors
-- **Primary Actor:** User (City Dweller with a smartphone or desktop device)
+- **Primary Actor:** User
 - **System Actor:** DecibelDetect Mobile/Web Application
 
 #### Triggers
