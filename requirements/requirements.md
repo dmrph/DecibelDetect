@@ -10,6 +10,8 @@ Decibel Detect - Requirements
 
   Aaron Polite - 
 
+  Rahul Reji - 
+
 • Github: https://github.com/DavidAMurphy/DecibelDetect
 
 • List communication channels/tools with corresponding use/communication policies (check main
