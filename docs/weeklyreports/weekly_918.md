@@ -1,42 +1,89 @@
-9/18 Status Report
+# 9/18 Status Report
 
-Team report (status update for your prof, including an agenda for the project meeting):
-• Goals from last week:
-• Progress and Issues:
-• Plans and Goals:
+## Team Report
 
-Contributions of individual team members:
+### Goals from Last Week:
+- Review project structure and technologies.
+- Set up basic repository and folders for the project.
+- Begin planning for the core functionalities.
 
-• David: 
-  • Goals from last week:
-  • Progress and Issues:
-    - Made git repo and setup requirements and reports folder
-  • Plans and Goals:
-    - Start working on a simple program that accepts audio as an input and work on geolocating it
+### Progress and Issues:
+- The git repository was created, and the requirements and reports folders were set up.
+- Researched tools for cross-platform development and database handling.
+- No significant issues so far, but the main focus has shifted to geolocation and visualization.
 
+### Plans and Goals:
+- Start working on audio input functionality and geolocation integration.
+- Set up the backend with Express.js and database handling.
+- Begin work on the frontend interface using React Native.
 
-• Matt(hew):
-  • Goals from last week:
-  • Progress and Issues: 
-  • Plans and Goals:
+---
 
+## Contributions of Individual Team Members:
 
-• Aaron:
-  • Goals from last week:
-  • Progress and Issues: 
-  • Plans and Goals:
+### David:
+  - **Goals from Last Week:**
+    - Set up project repository and organize file structure.
+  
+  - **Progress and Issues:**
+    - Created the git repository and set up the requirements and reports folder.
+  
+  - **Plans and Goals:**
+    - Start working on a simple program that accepts audio input.
+    - Work on geolocating the audio input using GPS data.
 
+---
 
-• Rahul:
-  • Goals from last week:
-  • Progress and Issues: 
-  • Plans and Goals:
+### Matt(hew):
+  - **Goals from Last Week:** 
+    - None specified.
+  
+  - **Progress and Issues:** 
+    - None specified.
+  
+  - **Plans and Goals:**
+    - Provide updates and participate in future tasks (TBD).
 
+---
 
-Frontend: After further research, using React Native enables cross-platform compatibility across
-IOS and Android as well as allows a web app built with React.js to cater to Desktop usability.
-Backend: A Node.js server using Express.js framework to handle API requests, process data, etc
-Database: Databases such as MongoDB or PostgreSQL for data storage such as user profiles
-and noise recording metadata. Can pair with PostGIS for better geographical data handling
-Collection/Visualization: Smartphones’ built-in mics for collecting noise data, then geolocated
-using GPS. Integration with Google Maps API to render the noise data on a geographic map
+### Aaron:
+  - **Goals from Last Week:** 
+    - None specified.
+  
+  - **Progress and Issues:** 
+    - None specified.
+  
+  - **Plans and Goals:**
+    - Provide updates and contribute to the backend (TBD).
+
+---
+
+### Rahul:
+  - **Goals from Last Week:** 
+    - None specified.
+  
+  - **Progress and Issues:** 
+    - None specified.
+  
+  - **Plans and Goals:**
+    - Provide updates and contribute to the frontend (TBD).
+
+---
+
+## Technology Overview:
+
+### Frontend:
+- **Current Status:**  
+  After further research, using React Native enables cross-platform compatibility across iOS and Android. Additionally, a web app can be built with React.js to ensure desktop usability.
+
+### Backend:
+- **Current Status:**  
+  A Node.js server using the Express.js framework will handle API requests and data processing.
+
+### Database:
+- **Current Status:**  
+  Considering databases such as MongoDB or PostgreSQL for storing user profiles and noise recording metadata. For geographical data handling, PostGIS can be paired with PostgreSQL.
+
+### Collection/Visualization:
+- **Current Status:**  
+  Smartphones’ built-in microphones will collect noise data, which will then be geolocated using GPS. Integration with Google Maps API will render the noise data on a geographic map.
