@@ -115,17 +115,51 @@ Each team member must come up with and describe at least one use case of the pro
 - **Poor Internet Connection:** If the user's internet connection is unstable, the app may fail to load the heatmap, and a message will be displayed prompting the user to retry once the connection is restored.
 - **GPS Location Error:** If the user’s device has trouble retrieving GPS location, the app will prompt the user to manually enter a location or ensure that location services are enabled.
 
+---
 
+### Aaron: 
 
-1. **Actors**
-2. **Triggers**
-3. **Preconditions**
-4. **Postconditions (Success Scenario)**
-5. **List of Steps (Success Scenario)**
-6. **Extensions/Variations of the Success Scenario**
-7. **Exceptions (Failure Conditions and Scenarios)**
+#### Actors
+- **Primary Actor:** User (City Dweller with a smartphone or desktop device)
+- **System Actor:** DecibelDetect Mobile/Web Application
 
-(At the end of this step, there will be at least one use case per team member.)
+#### Triggers
+
+#### Preconditions
+- User has access to the DecibelDetect mobile app or web application.
+
+#### Postconditions (Success Scenario)
+
+#### List of Steps (Success Scenario)
+1. User opens the DecibelDetect mobile/web application.
+
+#### Extensions/Variations of the Success Scenario
+
+#### Exceptions (Failure Conditions and Scenarios)
+
+---
+
+### Rahul: 
+
+#### Actors
+- **Primary Actor:** User (City Dweller with a smartphone or desktop device)
+- **System Actor:** DecibelDetect Mobile/Web Application
+
+#### Triggers
+
+#### Preconditions
+- User has access to the DecibelDetect mobile app or web application.
+
+#### Postconditions (Success Scenario)
+
+#### List of Steps (Success Scenario)
+1. User opens the DecibelDetect mobile/web application.
+
+#### Extensions/Variations of the Success Scenario
+
+#### Exceptions (Failure Conditions and Scenarios)
+
+  
 
 ## 4. Non-Functional Requirements (10%)
 
