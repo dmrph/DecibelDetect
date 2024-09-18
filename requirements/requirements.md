@@ -3,8 +3,11 @@ Decibel Detect - Requirements
 1. Team info & policies (10%)
 
 • Team members and roles:
+
   David Murphy -
+
   Matthew Danese -
+
   Aaron Polite - 
 
 • Github: https://github.com/DavidAMurphy/DecibelDetect
@@ -14,7 +17,7 @@ course page for communication channels and policies.)
 
 2. Product description (20%)
 
-• DecibalDetect is a web and mobile application designed to map noise pollution in urban
+DecibalDetect is a web and mobile application designed to map noise pollution in urban
 environments. By allowing users to upload the decibel level of their current area (using the
 smartphone mic), DecibelDetect captures real-time noise data and visualizes it on an interactive
 map. Users are then able to identify and navigate away from the noisy areas, promoting quiter
