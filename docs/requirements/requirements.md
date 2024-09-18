@@ -13,6 +13,7 @@
 
 ### Communication Channels/Tools:
 - Github for version control
+- Discord for communication abut meetings and discuss outisde of the class
 
 ## 2. Product Description (20%)
 
