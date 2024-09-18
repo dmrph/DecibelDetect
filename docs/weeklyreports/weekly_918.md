@@ -23,6 +23,8 @@
 
 ### David:
   - **Goals from Last Week:**
+    - Get started on Git
+    - Work on JS or Python program for audio input
   
   - **Progress and Issues:**
     - Created the git repository and set up the requirements and reports folder.
