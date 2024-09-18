@@ -117,7 +117,7 @@ Each team member must come up with and describe at least one use case of the pro
 
 ---
 
-### Aaron: 
+### Aaron: Noise Alerts
 
 #### Actors
 - **Primary Actor:** User
