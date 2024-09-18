@@ -7,14 +7,14 @@ Decibel Detect - Requirements
   Matthew Danese -
   Aaron Polite - 
 
-• Link to each project relevant artifact such as your git repo (this can be empty for now).
+• Github: https://github.com/DavidAMurphy/DecibelDetect
 
 • List communication channels/tools with corresponding use/communication policies (check main
 course page for communication channels and policies.)
 
 2. Product description (20%)
 
-DecibalDetect is a web and mobile application designed to map noise pollution in urban
+• DecibalDetect is a web and mobile application designed to map noise pollution in urban
 environments. By allowing users to upload the decibel level of their current area (using the
 smartphone mic), DecibelDetect captures real-time noise data and visualizes it on an interactive
 map. Users are then able to identify and navigate away from the noisy areas, promoting quiter
@@ -26,8 +26,13 @@ comprehensive, up-to-date map of urban noise pollution. This community driven ap
 only enhances data accuracy and coverage but also increases user engagement through active
 participation.
 
-Major Features:
+Major Features: 
+• Heatmap to display areas with greater noise pollution 
+• data/decibel upload using smartphone
+• Live map updates
+
 Goals:
+• Scale application to fill more use cases
 
 Use the product description of the project proposal as a starting point. Revise it based on feedback you
 received so far, and incorporate it into this section. Additionally, add the following to this section:
@@ -50,8 +55,12 @@ this template:
 
 4. Non-functional Requirements (10%)
 Describe at least three non-functional requirements, e.g., related to scalability, usability, security and privacy, etc. 1 2
+• Security for user data is extremely important for our application. We need to ensure user data is stored properly with good security
+measures in place to avoid any data misuse.
+• Scalability is important for this application since most of its use cases come with the more users it has. If nobody is using the app or uploading noise data, our map wouldn't be accurate and would only show the areas that are recorded.
 
-5. External Requirements (10%)
+
+6. External Requirements (10%)
 In addition to the requirements stated above, the Nate imposes the following requirements on your
 product:
 • The product must be robust against errors that can reasonably be expected to occur, such as invalid
@@ -67,7 +76,7 @@ Make sure that these requirements, if applicable to your product, are specialize
 included in your document—do not copy and paste these requirements verbatim. You may leave this as a
 separate section or fold its items into the other requirements sections.
 
-6. Team process description (20%)
+7. Team process description (20%)
 Describe your semeseter-long development process.
 • Specify and justify the software toolset you will use.
 • Define and justify each team member’s role: why does your team need this role filled, and why is
