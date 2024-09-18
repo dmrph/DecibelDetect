@@ -58,7 +58,7 @@
 
 ---
 
-### Rahul: Subscribing to Noise Alerts
+### Rahul: 
 
 #### Goals from Last Week:
 - Research decibel detecting processes thoroughly
