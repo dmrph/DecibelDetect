@@ -1,4 +1,4 @@
-# 9/18 Status Report
+# 9/18 Weekly Report
 
 ## Team Report
 
