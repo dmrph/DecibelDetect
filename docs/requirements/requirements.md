@@ -33,6 +33,37 @@ DecibelDetect aims to empower city dwellers with the ability to understand and n
 
 Each team member must come up with and describe at least one use case of the product, following this template:
 
+Use Case: DecibelDetect Noise Reporting
+Actors
+User: A city dweller using the DecibelDetect app.
+System: The DecibelDetect application (web and mobile).
+Triggers
+The user wants to report the noise level in their current environment.
+Preconditions
+The user has the DecibelDetect app installed on their smartphone.
+The user has granted microphone access to the app.
+The user is connected to the internet.
+Postconditions (Success Scenario)
+The noise level is successfully recorded and uploaded to the DecibelDetect database.
+The interactive map is updated to reflect the new noise data.
+The user receives feedback confirming their report and can see their contribution on the map.
+List of Steps (Success Scenario)
+Open App: The user launches the DecibelDetect app on their smartphone.
+Access Location: The app automatically detects the user's current location using GPS.
+Initiate Noise Measurement: The user taps the "Record Noise" button to start capturing the ambient noise level.
+Capture Noise Level: The app utilizes the smartphone microphone to measure the decibel level for a specified duration.
+Review Measurement: Once the recording is complete, the app displays the measured decibel level to the user.
+Submit Report: The user confirms the submission of the noise level by tapping the "Submit" button.
+Update Map: The app updates the interactive map with the new noise level data and displays a confirmation message.
+Provide Feedback: The user receives a notification indicating that their report has been successfully submitted.
+Extensions/Variations of the Success Scenario
+User Updates Location: If the user moves to a different location while measuring noise, they can choose to update the location before submission.
+User Adds Comments: The user can provide additional comments or context regarding the noise source (e.g., construction, traffic) before submission.
+Exceptions (Failure Conditions and Scenarios)
+Microphone Access Denied: If the user has not granted microphone access, the app displays an error message and prompts the user to enable microphone permissions.
+No Internet Connection: If there is no internet connection, the app informs the user that the submission cannot be completed and offers to save the data for later.
+Recording Error: If the app encounters an error while capturing the noise level (e.g., hardware issue), it notifies the user and suggests trying again.
+
 1. **Actors**
 2. **Triggers**
 3. **Preconditions**
