@@ -37,7 +37,7 @@
     - TBD
   
   - **Progress and Issues:** 
-    - Researching ways to store the data in the databases
+    - Researched ways to store the data in the databases
   
   - **Plans and Goals:**
     - Start downloading the necessary databses needed to store the data (MongoDB or PostgreSQL)
