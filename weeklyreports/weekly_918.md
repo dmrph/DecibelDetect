@@ -9,10 +9,8 @@ Contributions of individual team members:
 
 • David: 
   • Goals from last week:
-
   • Progress and Issues:
     - Made git repo and setup requirements and reports folder
-
   • Plans and Goals:
     - Start working on a simple program that accepts audio as an input and work on geolocating it
 
