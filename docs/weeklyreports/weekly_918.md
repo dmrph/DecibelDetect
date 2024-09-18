@@ -14,7 +14,7 @@
 
 ### Plans and Goals:
 - Start working on audio input functionality and geolocation integration.
-- Set up the backend with Express.js and database handling.
+- Set up the backend with Express.js and database handling. ? (Maybe Python)
 - Begin work on the frontend interface using React Native.
 
 ---
@@ -23,38 +23,36 @@
 
 ### David:
   - **Goals from Last Week:**
-    - Set up project repository and organize file structure.
   
   - **Progress and Issues:**
     - Created the git repository and set up the requirements and reports folder.
   
   - **Plans and Goals:**
     - Start working on a simple program that accepts audio input.
-    - Work on geolocating the audio input using GPS data.
 
 ---
 
 ### Matt(hew):
   - **Goals from Last Week:** 
-    - None specified.
+    - 
   
   - **Progress and Issues:** 
-    - None specified.
+    - 
   
   - **Plans and Goals:**
-    - Provide updates and participate in future tasks (TBD).
+    - 
 
 ---
 
 ### Aaron:
   - **Goals from Last Week:** 
-    - None specified.
+    - 
   
   - **Progress and Issues:** 
-    - None specified.
+    - 
   
   - **Plans and Goals:**
-    - Provide updates and contribute to the backend (TBD).
+    - 
 
 ---
 
