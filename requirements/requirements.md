@@ -31,15 +31,13 @@ comprehensive, up-to-date map of urban noise pollution. This community driven ap
 only enhances data accuracy and coverage but also increases user engagement through active
 participation.
 
-Major Features: 
+• Major Features: 
+  - Heatmap to display areas with greater noise pollution
+  - data/decibel upload using smartphone
+  - Live map updates
 
-• Heatmap to display areas with greater noise pollution 
-• data/decibel upload using smartphone
-• Live map updates
-
-Goals:
-
-• Scale application to fill more use cases
+• Goals:
+  - Scale application to fill more use cases
 
 Use the product description of the project proposal as a starting point. Revise it based on feedback you
 received so far, and incorporate it into this section. Additionally, add the following to this section:
