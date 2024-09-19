@@ -1,6 +1,6 @@
-# 9/18 Weekly Report
+# 9/18 Weekly Report - Decibel Detect
 
-## Team Report - Decibel Detect
+## Team Report
 ### David
 ### Matt
 ### Aaron
