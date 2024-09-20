@@ -4,8 +4,8 @@
 
 ### Team Members and Roles:
 - **David Murphy** - Product Owner, Dev Team
-- **Matthew Danese** - Scrum Master, Dev Team
-- **Aaron Polite** - Dev Team
+- **Matthew Danese** - Scrum Master, Database Designer
+- **Aaron Polite** - UI Design
 - **Rahul Reji** - Dev Team
 
 ### Github Repository:
