@@ -25,6 +25,7 @@ DecibelDetect aims to empower people from cities/suburbs with the ability to und
 - Heatmap to display areas with greater noise pollution.
 - Data/decibel upload using smartphones.
 - Live map updates.
+- Abillity to see history of sound pollution in different areas
 
 ### Goals:
 - Scale the application to fill more use cases.
@@ -211,11 +212,15 @@ Each team member must come up with and describe at least one use case of the pro
 
 ## 5. External Requirements
 
-- The product must be robust against expected errors, such as invalid user input.
-- The product must be easily installable by users, with a public URL for web services or a straightforward installation method for stand-alone applications.
-- The product must have a usable microphone for audio detection.
-- The system must be well-documented for future developers to make enhancements.
-- The project’s scope should match the available team resources.
+- The product must be robust against errors that can reasonably be expected to occur, such as invalid
+user input.
+- The product must be installable by a user, or if the product is a web-based service, the server must
+have a public URL that others can use to access it. If the product is a stand-alone application, you
+are expected to provide a reasonable means for others to easily download, install, and run it.
+- The software (all parts, including clients and servers) should be buildable from source by others. If
+your project is a web-based server, you will need to provide instructions for someone else setting up a
+new server. Your system should be well documented to enable new developers to make enhancements.
+- The scope of the project must match the resources (number of team members) assigned.
 
 ## 6. Team Process Description
 
