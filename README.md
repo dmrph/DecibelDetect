@@ -7,7 +7,7 @@ DecibelDetect is a community-driven application aimed at helping users upload an
 - **Noise Maps**: View uploaded noise data visualized on a map, showing high and low noise areas in real time.
 - **Community-Driven**: Contributions from users help build a dynamic map of noise pollution in various regions.
 - **Historical Data**: View past trends in noise pollution over time.
-- **Noise Alerts**: Get notifications when you're approaching a high-noise zone (coming soon).
+- **Noise Alerts**: Get notifications when you're approaching a high-noise zone.
 
 ## How It Works
 1. **Record**: Use your smartphone to measure noise levels in decibels.
