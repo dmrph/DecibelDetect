@@ -225,7 +225,8 @@ Each team member must come up with and describe at least one use case of the pro
 ### Roles:
 - Aaron (UI Design) : With my role as the Ui Designer, my job is to create a homepage that is orginized and easy for users to navigate. This
   role is crucial to ensure that the final project looks clean.
-- Matt
+- Matt (Database Designer) : This role is crucial for the success of this project. My job as the Database Designer is to set up the database, PostgreSQL, which 
+  will be used to store the audio data that the app with gather and then will show the noise level of that area.
 
 ### Milestones:
 - Provide a schedule for each member (or sub-group) with at least four concrete milestones and deadlines for the semester.
