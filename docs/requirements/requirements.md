@@ -28,6 +28,7 @@ DecibelDetect aims to empower people from cities/suburbs with the ability to und
 
 ### Goals:
 - Scale the application to fill more use cases.
+- Integration of social media elements to allow audio sharing.
 
 ## 3. Use Cases (Functional Requirements)
 
@@ -212,7 +213,7 @@ Each team member must come up with and describe at least one use case of the pro
 
 - The product must be robust against expected errors, such as invalid user input.
 - The product must be easily installable by users, with a public URL for web services or a straightforward installation method for stand-alone applications.
-- All software components should be buildable from source by others, with detailed instructions for setup.
+- The product must have a usable microphone for audio detection.
 - The system must be well-documented for future developers to make enhancements.
 - The project’s scope should match the available team resources.
 
