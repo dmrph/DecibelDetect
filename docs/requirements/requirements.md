@@ -221,6 +221,7 @@ Each team member must come up with and describe at least one use case of the pro
 
 ### Software Toolset:
 - Define and justify the software toolset used, including programming languages, data sources, project trackers, and other tools.
+- PostgreSQL: Used to store the data
 
 ### Roles:
 - Aaron (UI Design) : With my role as the Ui Designer, my job is to create a homepage that is orginized and easy for users to navigate. This
