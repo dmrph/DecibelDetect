@@ -223,13 +223,14 @@ Each team member must come up with and describe at least one use case of the pro
 - Define and justify the software toolset used, including programming languages, data sources, project trackers, and other tools.
 
 ### Roles:
-- Define and justify each team member's role, explaining why each role is necessary for the project and why the team member is suited for it.
+- Aaron(UI Design) : With my role as the Ui Designer, my job is to create a homepage that is orginized and easy for users to navigate. This
+  role is crucial to ensure that the final project looks clean.
 
 ### Milestones:
 - Provide a schedule for each member (or sub-group) with at least four concrete milestones and deadlines for the semester.
 
 ### Risks:
-- Identify and explain at least three major risks that could prevent the project’s completion.
+- Incorrect data when audio is being recorded.
 
 ### External Feedback:
 - Describe at what point external feedback will be most useful, and how this feedback will be obtained.
