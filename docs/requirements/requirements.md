@@ -3,10 +3,10 @@
 ## 1. Team Info & Policies
 
 ### Team Members and Roles:
-- **David Murphy** - Product Owner, Dev Team
+- **David Murphy** - Product Owner, Full Stack Engineer
 - **Matthew Danese** - Scrum Master, Database Designer
 - **Aaron Polite** - UI Design
-- **Rahul Reji** - Dev Team
+- **Rahul Reji** - Mobile Developer
 
 ### Github Repository:
 - [Decibel Detect Repository](https://github.com/dmrph/DecibelDetect)
