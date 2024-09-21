@@ -231,17 +231,95 @@ new server. Your system should be well documented to enable new developers to ma
 ### Roles:
 - Aaron (UI Design) : With my role as the Ui Designer, my job is to create a homepage that is orginized and easy for users to navigate. This
   role is crucial to ensure that the final project looks clean.
-- Matt (Database Designer) : This role is crucial for the success of this project. My job as the Database Designer is to set up the database, PostgreSQL, which 
-  will be used to store the audio data that the app with gather and then will show the noise level of that area.
+- Matt (Database Designer) : This role is crucial for the success of this project. My job as the Database Designer is to set up the database, PostgreSQL, which will be used to store the audio data that the app with gather and then will show the noise level of that area.
+- David (Product Owner, Full Stack Engineer) : My role as product owner will primarily be making sure everybody understands their role and can progress in the project. It is important for me to properly relay the end goal of the project to the team members. I will also be working on building the app for IOS and Android in react using expo, as well as working on the audio detection. 
 
 ### Milestones:
-- Provide a schedule for each member (or sub-group) with at least four concrete milestones and deadlines for the semester.
+#### For David (Product Owner, Full Stack Engineer):
+1. **Milestone 1: Core App Structure Development**
+   - **Description**: Build the initial app skeleton using React and Expo. Set up routing, screens (e.g., Home, Map, Upload).
+   - **Deadline**: Week 2 of the semester.
+   
+2. **Milestone 2: Implement Audio Detection**
+   - **Description**: Develop and integrate the audio detection feature. Ensure the app can accurately capture decibel data from the device's microphone.
+   - **Deadline**: Week 4 of the semester.
+   
+3. **Milestone 3: Map Integration and Live Updates**
+   - **Description**: Integrate the live map to display noise levels in real-time and ensure the heatmap visualizations work as expected.
+   - **Deadline**: Week 7 of the semester.
+   
+4. **Milestone 4: Testing and Bug Fixing**
+   - **Description**: Conduct testing of the audio detection and map features, fix bugs, and improve performance for smooth user experience.
+   - **Deadline**: Week 10 of the semester.
+
+  
+
+  #### For Matt (Database Design):
+1. **Milestone 1: API Design and Data Structure**
+   - **Description**: Design the API for storing and retrieving noise data, including data structure definitions.
+   - **Deadline**: Week 3 of the semester.
+   
+2. **Milestone 2: Server and Database Setup**
+   - **Description**: Set up the server and database for collecting and storing noise pollution data uploaded by users.
+   - **Deadline**: Week 5 of the semester.
+   
+3. **Milestone 3: Data Upload and Retrieval**
+   - **Description**: Implement functionality to upload decibel data and retrieve it for the map heatmap feature.
+   - **Deadline**: Week 7 of the semester.
+   
+4. **Milestone 4: API Testing and Optimization**
+   - **Description**: Conduct API testing to ensure data is uploaded correctly, and optimize it for scalability.
+   - **Deadline**: Week 9 of the semester.
+
+
+
+#### For Aaron (UI Design):
+1. **Milestone 1: User Flow and Wireframes**
+   - **Description**: Design basic user flows and create wireframes for the app's main screens (Home, Map, Upload).
+   - **Deadline**: Week 2 of the semester.
+   
+2. **Milestone 2: UI Mockups**
+   - **Description**: Develop full UI mockups and visual design elements for the app. Collaborate with the development team for feedback.
+   - **Deadline**: Week 4 of the semester.
+   
+3. **Milestone 3: Usability Testing**
+   - **Description**: Conduct usability tests to ensure the design is intuitive and user-friendly, then refine the design based on user feedback.
+   - **Deadline**: Week 8 of the semester.
+   
+4. **Milestone 4: Final Design Integration**
+   - **Description**: Finalize and deliver the polished design assets for integration into the React app.
+   - **Deadline**: Week 9 of the semester.
+
+#### For Rahul (Mobile Developer):
+1. **Milestone 1: Mobile Interface Setup**
+   - **Description**: Set up the mobile interface with Expo, ensuring cross-platform compatibility for iOS and Android.
+   - **Deadline**: Week 3 of the semester.
+   
+2. **Milestone 2: Implement Decibel Data Upload**
+   - **Description**: Integrate functionality for uploading decibel readings from the mobile device to the server.
+   - **Deadline**: Week 5 of the semester.
+   
+3. **Milestone 3: Integrate Heatmap Visualization**
+   - **Description**: Implement the heatmap feature on the mobile app to visualize noise pollution data on a live map.
+   - **Deadline**: Week 7 of the semester.
+   
+4. **Milestone 4: Mobile Testing and Performance Optimization**
+   - **Description**: Conduct extensive testing of the mobile app, focusing on performance and responsiveness.
+   - **Deadline**: Week 10 of the semester.
+
+---
 
 ### Risks:
-- Incorrect data when audio is being recorded.
+- **Risk**: **Incorrect data when audio is being recorded**.
+   - **Mitigation**: Ensure the app is calibrated to detect accurate decibel levels across a wide range of devices. Conduct testing on different smartphone models and environments to validate accuracy. Implement audio filtering to discard irrelevant noise or calibrate based on background levels. Include user feedback mechanisms to flag potential incorrect recordings.
+
+---
 
 ### External Feedback:
-- Describe at what point external feedback will be most useful, and how this feedback will be obtained.
+- **Timing for Feedback**:  
+   External feedback will be most useful during **Milestone 3**, when the app has integrated audio detection and map functionality (around Week 7 or 8). At this stage, external users can test the key features and provide valuable insights regarding usability, accuracy of decibel detection, and map clarity.
+
+---
 
 ## Technology Overview:
 
