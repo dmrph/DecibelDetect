@@ -238,74 +238,74 @@ new server. Your system should be well documented to enable new developers to ma
 #### For David (Product Owner, Full Stack Engineer):
 1. **Milestone 1: Core App Structure Development**
    - **Description**: Build the initial app skeleton using React and Expo. Set up routing, screens (e.g., Home, Map, Upload).
-   - **Deadline**: Week 2 of the semester.
+   - **Deadline**: Week 4 of the semester.
    
 2. **Milestone 2: Implement Audio Detection**
    - **Description**: Develop and integrate the audio detection feature. Ensure the app can accurately capture decibel data from the device's microphone.
-   - **Deadline**: Week 4 of the semester.
+   - **Deadline**: Week 6 of the semester.
    
 3. **Milestone 3: Map Integration and Live Updates**
    - **Description**: Integrate the live map to display noise levels in real-time and ensure the heatmap visualizations work as expected.
-   - **Deadline**: Week 7 of the semester.
+   - **Deadline**: Week 9 of the semester.
    
 4. **Milestone 4: Testing and Bug Fixing**
    - **Description**: Conduct testing of the audio detection and map features, fix bugs, and improve performance for smooth user experience.
-   - **Deadline**: Week 10 of the semester.
+   - **Deadline**: Week 11 of the semester.
 
   
 
   #### For Matt (Database Design):
 1. **Milestone 1: API Design and Data Structure**
    - **Description**: Design the API for storing and retrieving noise data, including data structure definitions.
-   - **Deadline**: Week 3 of the semester.
+   - **Deadline**: Week 4 of the semester.
    
 2. **Milestone 2: Server and Database Setup**
    - **Description**: Set up the server and database for collecting and storing noise pollution data uploaded by users.
-   - **Deadline**: Week 5 of the semester.
+   - **Deadline**: Week 7 of the semester.
    
 3. **Milestone 3: Data Upload and Retrieval**
    - **Description**: Implement functionality to upload decibel data and retrieve it for the map heatmap feature.
-   - **Deadline**: Week 7 of the semester.
+   - **Deadline**: Week 9 of the semester.
    
 4. **Milestone 4: API Testing and Optimization**
    - **Description**: Conduct API testing to ensure data is uploaded correctly, and optimize it for scalability.
-   - **Deadline**: Week 9 of the semester.
+   - **Deadline**: Week 11 of the semester.
 
 
 
 #### For Aaron (UI Design):
 1. **Milestone 1: User Flow and Wireframes**
    - **Description**: Design basic user flows and create wireframes for the app's main screens (Home, Map, Upload).
-   - **Deadline**: Week 2 of the semester.
+   - **Deadline**: Week 4 of the semester.
    
 2. **Milestone 2: UI Mockups**
    - **Description**: Develop full UI mockups and visual design elements for the app. Collaborate with the development team for feedback.
-   - **Deadline**: Week 4 of the semester.
+   - **Deadline**: Week 6 of the semester.
    
 3. **Milestone 3: Usability Testing**
    - **Description**: Conduct usability tests to ensure the design is intuitive and user-friendly, then refine the design based on user feedback.
-   - **Deadline**: Week 8 of the semester.
+   - **Deadline**: Week 9 of the semester.
    
 4. **Milestone 4: Final Design Integration**
    - **Description**: Finalize and deliver the polished design assets for integration into the React app.
-   - **Deadline**: Week 9 of the semester.
+   - **Deadline**: Week 11 of the semester.
 
 #### For Rahul (Mobile Developer):
 1. **Milestone 1: Mobile Interface Setup**
    - **Description**: Set up the mobile interface with Expo, ensuring cross-platform compatibility for iOS and Android.
-   - **Deadline**: Week 3 of the semester.
+   - **Deadline**: Week 4 of the semester.
    
 2. **Milestone 2: Implement Decibel Data Upload**
    - **Description**: Integrate functionality for uploading decibel readings from the mobile device to the server.
-   - **Deadline**: Week 5 of the semester.
+   - **Deadline**: Week 6 of the semester.
    
 3. **Milestone 3: Integrate Heatmap Visualization**
    - **Description**: Implement the heatmap feature on the mobile app to visualize noise pollution data on a live map.
-   - **Deadline**: Week 7 of the semester.
+   - **Deadline**: Week 8 of the semester.
    
 4. **Milestone 4: Mobile Testing and Performance Optimization**
    - **Description**: Conduct extensive testing of the mobile app, focusing on performance and responsiveness.
-   - **Deadline**: Week 10 of the semester.
+   - **Deadline**: Week 11 of the semester.
 
 ---
 
@@ -336,16 +336,3 @@ new server. Your system should be well documented to enable new developers to ma
 - Smartphones’ built-in microphones will collect noise data, which will be geolocated using GPS. Integration with Google Maps API will render the noise data on a geographic map.
 
 ---
-
-**Export a PDF snapshot of your document named ProjectName-m2.pdf and submit it to Canvas by the due date (Check Calendar).**
-
-### Clarifications and FAQs:
-
-1. **Software Toolset:**
-   - Specify programming languages, data sources, project trackers, and other tools. Determine whether you will use "off the shelf" components or build from scratch, and explain why each tool was chosen.
-
-2. **Team Member Roles:**
-   - A role describes a team member's responsibility within the project. These can be refined and changed as the project progresses.
-
-3. **Writing Advice:**
-   - Focus on plausibility, thoughtfulness, and detail. Ensure the document is clear, professional, and avoids redundancy.
