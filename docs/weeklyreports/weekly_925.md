@@ -11,7 +11,8 @@
 - tbd
 
 ### Plans and Goals:
-- tbd
+- Further discuss roles
+- Create branches for each individual
 
 ---
 
