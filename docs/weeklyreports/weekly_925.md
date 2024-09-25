@@ -23,7 +23,8 @@
     - tbd
   
   - **Progress and Issues:**
-    - tbd
+    - Starting working on React Native app using Expo
+    - Implemented sound capturing in decibels
   
   - **Plans and Goals:**
     - tbd
