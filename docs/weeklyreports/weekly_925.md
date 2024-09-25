@@ -62,9 +62,12 @@
     - Identifying key features for the reporting interface, noise type selection and GPS integration.
   
   - **Progress and Issues:** 
-    - Working 
+    - Currently working on the design for the "Report Noise Source" feature.
+    - Encountered minor issues with the GPS integration, but solutions are being explored. 
   
   - **Plans and Goals:**
-    - TBD
+    - Finalize the design of the reporting interface.
+    - Begin implementing the "Report Noise Source" feature, allowing users to submit noise reports along with location and audio evidence.
+    - Collaborate with David to ensure seamless integration with the audio capturing functionality.
 
 ---
