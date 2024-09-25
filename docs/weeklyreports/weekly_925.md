@@ -33,13 +33,14 @@
 
 ### Matt(hew):
   - **Goals from Last Week:** 
-    - TBD
+    - Start reseach on which database to use to store the data from the users
+    - Start downloading the database we will need to use (PostgreSQL)
   
   - **Progress and Issues:** 
-    - tbd
+    - Started working on downloading PostgreSQL and setting up the databse
   
   - **Plans and Goals:**
-    - tbd
+    - I plan to have all the prep done with PostgreSQL setup by next weeks meeting
 
 ---
 
