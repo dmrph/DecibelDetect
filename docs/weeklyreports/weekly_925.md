@@ -40,7 +40,7 @@
     - Started working on downloading PostgreSQL and setting up the databse
   
   - **Plans and Goals:**
-    - I plan to have all the prep done with PostgreSQL setup by next weeks meeting
+    - I plan to have all the prep work done with PostgreSQL setup by next weeks meeting
 
 ---
 
