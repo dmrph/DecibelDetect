@@ -38,6 +38,7 @@
   
   - **Progress and Issues:** 
     - Started working on downloading PostgreSQL and setting up the databse
+    - Figuring out ways to store the data in PostgreSQL
   
   - **Plans and Goals:**
     - I plan to have all the prep work done with PostgreSQL setup by next weeks meeting
