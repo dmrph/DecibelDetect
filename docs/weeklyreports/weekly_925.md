@@ -58,10 +58,10 @@
 
 ### Rahul:
   - **Goals from Last Week:** 
-    - TBD
+    - Identifying key features for the reporting interface, noise type selection and GPS integration.
   
   - **Progress and Issues:** 
-    - TBD
+    - Working 
   
   - **Plans and Goals:**
     - TBD
