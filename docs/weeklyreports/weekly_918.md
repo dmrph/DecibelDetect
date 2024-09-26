@@ -1,10 +1,6 @@
 # 9/18 Weekly Report - Decibel Detect
 
 ## Team Report
-### David
-### Matt
-### Aaron
-### Rahul
 
 ### Goals from Last Week:
 - Review project structure and technologies.
