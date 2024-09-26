@@ -48,7 +48,7 @@
 
 ### Aaron:
   - **Goals from Last Week:** 
-    - TBD
+    - Become proficient in React.
   
   - **Progress and Issues:** 
     - TBD
