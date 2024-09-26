@@ -8,7 +8,7 @@
 - Begin work on the frontend interface using React Native.
 
 ### Progress and Issues:
-- tbd
+- Expo connectivity issues, needs looking into
 
 ### Plans and Goals:
 - Further discuss roles
@@ -20,14 +20,15 @@
 
 ### David:
   - **Goals from Last Week:**
-    - tbd
+    - Start working on a simple program that accepts audio input.
   
   - **Progress and Issues:**
-    - Starting working on React Native app using Expo
-    - Implemented sound capturing in decibels
+    - Started working on React Native app using Expo
+    - Created program for sound capturing in decibels
   
   - **Plans and Goals:**
-    - tbd
+    - Implement program for sound capturing into react app
+    - Get Expo working, connectivity issues
 
 ---
 
