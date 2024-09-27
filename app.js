@@ -1,11 +1,10 @@
 import React from 'react';
-import { SafeAreaView } from 'react-native';
-import DecibelRecorderApp from './src/components/DecibelRecorderApp';
+import { View, Text } from 'react-native';
 
 export default function App() {
   return (
-    <SafeAreaView style={{ flex: 1 }}>
-      <DecibelRecorderApp />
-    </SafeAreaView>
+    <View style={{ flex: 1, justifyContent: 'center', alignItems: 'center' }}>
+      <Text>Hello, Expo!</Text>
+    </View>
   );
 }
