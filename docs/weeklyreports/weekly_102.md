@@ -29,7 +29,8 @@
 
 ### Matt(hew):
   - **Goals from Last Week:** 
-    - 
+    - Download and set up PostgreSQL
+    - Start researching ways to store the user and audio data in the database
   
   - **Progress and Issues:** 
     - 
