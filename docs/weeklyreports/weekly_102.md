@@ -34,11 +34,11 @@
     - Have all the prep work done with PostgreSQL setup
   
   - **Progress and Issues:** 
-    - 
+    - I started researching different algorithms to collect and store data in the database
     - 
   
   - **Plans and Goals:**
-    - 
+    - Figure out the most efficient algorithms to store the data in our database
 
 ---
 
