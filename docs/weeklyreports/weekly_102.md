@@ -35,10 +35,10 @@
   
   - **Progress and Issues:** 
     - I started researching different algorithms to collect and store data in the database
-    - 
   
   - **Plans and Goals:**
     - Figure out the most efficient algorithms to store the data in our database
+    - Create a program based on the algorithm I choose to store the data
 
 ---
 
