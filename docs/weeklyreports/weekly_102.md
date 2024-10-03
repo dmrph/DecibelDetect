@@ -12,7 +12,7 @@
 ### Plans and Goals:
 - Fix decibel recording issue
 - Research effecient database storage algorithms
-- 
+  
 
 ---
 
@@ -20,13 +20,17 @@
 
 ### David:
   - **Goals from Last Week:**
-    - 
+    - Implement program for sound capturing into react app
+    - Get Expo working, connectivity issues
   
   - **Progress and Issues:**
-    -
+    - Expo working, connectivity fixed
+    - Decibels aren't properly being recorded on web testing
   
   - **Plans and Goals:**
-    - 
+    - Test further on the web version
+    - Create IOS version for testing
+    - Create Android version for testing
 
 ---
 
