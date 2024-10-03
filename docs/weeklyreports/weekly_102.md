@@ -3,12 +3,15 @@
 ## Team Report
 
 ### Goals from Last Week:
--
+- Further discuss roles
+- Create branches for each individual
 
 ### Progress and Issues:
-- 
+- Application is not properly recording decibels
 
 ### Plans and Goals:
+- Fix decibel recording issue
+- Research effecient database storage algorithms
 - 
 
 ---
