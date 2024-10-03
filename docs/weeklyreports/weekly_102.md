@@ -56,12 +56,15 @@
 
 ### Rahul:
   - **Goals from Last Week:** 
-    - 
+    - Keep working on the "Report Noise Source" feature, especially the audio submission and GPS parts.
   
   - **Progress and Issues:** 
-    - 
-  
+    - Finished the design for the reporting interface, making sure it’s easy to use.
+    - Ran into some issues with GPS accuracy, but have some ideas on how to fix it.
+
   - **Plans and Goals:**
-    - 
+    - Start building the "Report Noise Source" feature, focusing on capturing audio and getting location data.
+    - Work with David to connect the audio capturing with the reporting part.
+    - Test the feature on both iOS and Android to make sure it works well.
 
 ---
