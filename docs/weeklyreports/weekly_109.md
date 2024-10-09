@@ -1,17 +1,15 @@
-# 10/2 Weekly Report
+# 10/9 Weekly Report
 
 ## Team Report
 
 ### Goals from Last Week:
-- Further discuss roles
-- Create branches for each individual
+- 
 
 ### Progress and Issues:
-- Application is not properly recording decibels
+- 
 
 ### Plans and Goals:
-- Fix decibel recording issue
-- Research effecient database storage algorithms
+- 
   
 
 ---
@@ -20,33 +18,29 @@
 
 ### David:
   - **Goals from Last Week:**
-    - Implement program for sound capturing into react app
-    - Get Expo working, connectivity issues
+    - 
   
   - **Progress and Issues:**
-    - Expo working, connectivity fixed
-    - Decibels aren't properly being recorded on web testing
+    - 
   
   - **Plans and Goals:**
-    - Test further on the web version
-    - Create IOS version for testing
-    - Create Android version for testing
+    - 
 
 ---
 
 ### Matt(hew):
-  - **Goals from Last Week:** 
-    - Download and setup PostgreSQL
-    - Start researching ways to store the user and audio data in the database
-    - Have all the prep work done with PostgreSQL setup
-  
-  - **Progress and Issues:** 
-    - I started researching different algorithms to collect and store data in the database
-  
-  - **Plans and Goals:**
+  - **Goals from Last Week:**
     - Figure out the most efficient algorithms to store the data in our database
     - Create a program based on the algorithm I choose to store the data
-
+  
+  - **Progress and Issues:** 
+    - I have started looking up the different functions that can be used in PostgreSQL
+    - Started deciding which functions would be the best to use
+    - I am having a little bit of trouble understanding what the different tabs on the top of the DB mean
+  
+  - **Plans and Goals:**
+    - I plan on having a simple table set up in the database to store the audio data
+    - Figure out what type of tables I should store the data in
 ---
 
 ### Aaron:
@@ -54,24 +48,21 @@
     - 
   
   - **Progress and Issues:** 
-    - TBD
+    - 
   
   - **Plans and Goals:**
-    - TBD
+    - 
 
 ---
 
 ### Rahul:
   - **Goals from Last Week:** 
-    - Keep working on the "Report Noise Source" feature, especially the audio submission and GPS parts.
+    - 
   
   - **Progress and Issues:** 
-    - Finished the design for the reporting interface, making sure it’s easy to use.
-    - Ran into some issues with GPS accuracy, but have some ideas on how to fix it.
+    - 
 
   - **Plans and Goals:**
-    - Start building the "Report Noise Source" feature, focusing on capturing audio and getting location data.
-    - Work with David to connect the audio capturing with the reporting part.
-    - Test the feature on both iOS and Android to make sure it works well.
+    - 
 
 ---
