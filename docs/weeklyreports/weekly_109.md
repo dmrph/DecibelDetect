@@ -30,7 +30,7 @@
 ---
 
 ### Matt(hew):
-  - **Goals from Last Week:**
+  - ### Goals from Last Week:
   - Figure out the most efficient algorithms to store the data in our database
   - Create a program based on the algorithm I choose to store the data
 
