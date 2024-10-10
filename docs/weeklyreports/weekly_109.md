@@ -21,13 +21,15 @@
 
 ### David:
   - **Goals from Last Week:**
-    - 
+    - Test further on the web version
+    - Create IOS version for testing
+    - Create Android version for testing
   
   - **Progress and Issues:**
-    - 
+    - Web version works, expo not responding for ios
   
   - **Plans and Goals:**
-    - 
+    - Fix IOS and android version on Expo
 
 ---
 
