@@ -3,13 +3,16 @@
 ## Team Report
 
 ### Goals from Last Week:
-- 
+-  Fix decibel recording issue
+- Research effecient database storage algorithms
 
 ### Progress and Issues:
-- 
+- Expo app still not responding
 
 ### Plans and Goals:
-- 
+- Fix app
+- work on audio input
+- data processing
   
 
 ---
