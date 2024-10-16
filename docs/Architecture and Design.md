@@ -51,7 +51,7 @@ CREATE TABLE noise_records (
     location GEOGRAPHY(POINT, 4326),
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
-
+```
 
 ### Assumptions
 - Users have smartphones with functioning microphones and internet access.
