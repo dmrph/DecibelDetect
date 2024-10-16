@@ -7,7 +7,7 @@
 - Detail the user interface and interaction flow.
 
 ### Coding Guideline (10%)
-- Establish coding standards and best practices.
+- Website Template: https://react.dev/learn/start-a-new-react-project
 
 ### Process Description (20%)
 - Outline the development and testing processes.
