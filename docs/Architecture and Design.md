@@ -1,4 +1,4 @@
-## Instructions
+## Software Architecture and Design
 
 ### Software Architecture (40%)
 - Define the overall system structure and components.
