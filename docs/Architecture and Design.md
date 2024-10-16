@@ -1,5 +1,8 @@
 # DecibelDetect
 
+## Software Architecture and Design
+
+
 ## 1. Overview
 This document outlines the software architecture, design, coding guidelines, and process description for the DecibelDetect application. DecibelDetect is a web and mobile application designed to map noise pollution in urban environments, allowing users to contribute and visualize real-time noise data.
 
@@ -48,6 +51,7 @@ CREATE TABLE noise_records (
     location GEOGRAPHY(POINT, 4326),
     recorded_at TIMESTAMP DEFAULT CURRENT_TIMESTAMP
 );
+
 
 ### Assumptions
 - Users have smartphones with functioning microphones and internet access.
