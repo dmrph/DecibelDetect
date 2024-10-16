@@ -1,0 +1,266 @@
+#########"Report Noise Source" Feature Design#########
+
+####Pseudo Code for "Report Noise Source" Feature####
+
+####Pseudo Code####
+FUNCTION reportNoiseSource(userLocation, audioInput):
+    IF audioInput IS NULL:
+        RETURN "Error: No audio input detected."
+    
+    noiseType = promptUserForNoiseType()
+    
+    IF noiseType IS NULL:
+        RETURN "Error: Noise type not selected."
+    
+    report = {
+        "user_id": getCurrentUserID(),
+        "location": userLocation,
+        "audio": audioInput,
+        "noise_type": noiseType,
+        "timestamp": getCurrentTimestamp()
+    }
+    
+    saveReportToDatabase(report)
+    
+    RETURN "Noise report submitted successfully!"
+Function Breakdown
+reportNoiseSource: Main function that handles the noise reporting.
+audioInput: Captured audio from the device.
+userLocation: GPS coordinates of the user at the time of reporting.
+promptUserForNoiseType(): A function that prompts the user to select the type of noise they are reporting.
+getCurrentUserID(): Retrieves the ID of the currently logged-in user.
+getCurrentTimestamp(): Records the current timestamp.
+saveReportToDatabase(report): Saves the report object to the database.
+
+
+
+####Basic Design Diagram####
+"Report Noise Source" Feature Flow
+
+      +------------------+
+      |   User Interface  |
+      +--------+---------+
+               |
+               v
+      +------------------+
+      |  Select Noise    |
+      |     Type         |
+      +--------+---------+
+               |
+               v
+      +------------------+
+      |  Capture Audio   |
+      |     Input        |
+      +--------+---------+
+               |
+               v
+      +------------------+
+      |  Get User GPS    |
+      |   Location       |
+      +--------+---------+
+               |
+               v
+      +------------------+
+      |   Validate Input  |
+      | (Noise Type &    |
+      |    Audio Input)   |
+      +--------+---------+
+               |
+               v
+      +------------------+
+      |   Create Report   |
+      |  (JSON Object)   |
+      +--------+---------+
+               |
+               v
+      +------------------+
+      |  Save to Database |
+      +------------------+
+               |
+               v
+      +------------------+
+      |  Show Success     |
+      |  Message          |
+      +------------------+
+
+
+
+
+####Component Descriptions####
+- **User Interface**: Where the user interacts with the app to report noise.
+- **Select Noise Type**: User selects the type of noise from predefined categories.
+- **Capture Audio Input**: Records the audio input using the device’s microphone.
+- **Get User GPS Location**: Fetches the user’s current GPS coordinates.
+- **Validate Input**: Ensures the noise type and audio input are provided before creating a report.
+- **Create Report**: Compiles the captured data into a structured report.
+- **Save to Database**: Stores the report in the database for future access and analysis.
+- **Show Success Message**: Provides user feedback confirming successful report submission.
+
+
+
+####Visual Design Concept for "Report Noise Source" Feature####
+Screen Layout
+Header
+
+Title: "Report Noise Source"
+Back Button: Returns to the previous screen
+Noise Type Selection
+
+Label: "Select Noise Type"
+Dropdown Menu:
+Options:
+Traffic
+Construction
+Barking Dog
+Music
+Other (with a text box for input)
+Audio Input Section
+
+Label: "Record Noise"
+Record Button:
+A circular button with a microphone icon
+State: Red when recording, Grey when idle
+Playback Button:
+A small play icon to listen to the recorded audio
+Location Section
+
+Label: "Current Location"
+Text Display: Shows the GPS coordinates (e.g., "Lat: 34.0522, Long: -118.2437")
+Refresh Button: To update the GPS location
+Submit Button
+
+A large, prominent button labeled "Submit Report"
+Color: Green to indicate action
+Cancel Button
+
+A smaller button labeled "Cancel" to discard the report
+
+
+####Mockup Example####
++-----------------------------------+
+|         Report Noise Source       |
+| [Back Button]                    |
++-----------------------------------+
+| Select Noise Type                 |
+| [Dropdown Menu]                  |
+| - Traffic                         |
+| - Construction                    |
+| - Barking Dog                     |
+| - Music                           |
+| - Other [Text Box]               |
++-----------------------------------+
+| Record Noise                      |
+| [● Record Button]                |
+| [► Playback Button]              |
++-----------------------------------+
+| Current Location:                 |
+| Lat: 34.0522 Long: -118.2437     |
+| [Refresh Button]                 |
++-----------------------------------+
+| [Submit Report Button]           |
+| [Cancel Button]                  |
++-----------------------------------+
+
+
+####Element Descriptions####
+Header: Clearly states the feature's purpose, making it easy for users to understand what they're doing.
+Noise Type Selection: Allows users to categorize the noise, which helps in data organization and analysis.
+Audio Input Section: Users can easily record and play back the noise they want to report, ensuring accuracy.
+Location Section: Provides real-time GPS coordinates, crucial for reporting noise sources accurately.
+Submit Button: Clearly indicates the action to finalize the report.
+Cancel Button: Provides an option to discard the report, enhancing user experience by allowing mistakes to be corrected easily.
+Updated Pseudocode for "Report Noise Source" Feature
+Incorporating the visual design and new elements:
+
+
+
+####Pseudo Code####
+// Function to display the Report Noise Source interface
+function displayReportNoiseSource() {
+    showHeader("Report Noise Source");
+    showBackButton();
+    
+    // Display noise type selection
+    noiseType = displayDropdownMenu("Select Noise Type", ["Traffic", "Construction", "Barking Dog", "Music", "Other"]);
+
+    // Audio recording section
+    displayLabel("Record Noise");
+    recordButton = displayButton("● Record", onRecordButtonClick);
+    playbackButton = displayButton("► Playback", onPlaybackButtonClick);
+
+    // Location section
+    displayLabel("Current Location:");
+    locationCoordinates = getCurrentGPSCoordinates();
+    displayText(locationCoordinates);
+    refreshButton = displayButton("Refresh", onRefreshLocationClick);
+
+    // Submission buttons
+    submitButton = displayButton("Submit Report", onSubmitButtonClick);
+    cancelButton = displayButton("Cancel", onCancelButtonClick);
+}
+
+// Event handler for record button
+function onRecordButtonClick() {
+    // Start recording audio
+    startAudioRecording();
+    changeButtonState(recordButton, "Recording...", active);
+    waitUntilRecordingStops();
+    changeButtonState(recordButton, "● Record", inactive);
+}
+
+// Event handler for playback button
+function onPlaybackButtonClick() {
+    // Play recorded audio
+    playRecordedAudio();
+}
+
+// Function to refresh GPS location
+function onRefreshLocationClick() {
+    locationCoordinates = getCurrentGPSCoordinates();
+    updateDisplayText(locationCoordinates);
+}
+
+// Event handler for submit button
+function onSubmitButtonClick() {
+    // Validate input
+    if (noiseType == null || recordedAudio == null) {
+        showError("Please select a noise type and record audio.");
+        return;
+    }
+
+    // Submit the report
+    submitReport(noiseType, recordedAudio, locationCoordinates);
+    showSuccess("Report submitted successfully!");
+    navigateToHomePage();
+}
+
+// Event handler for cancel button
+function onCancelButtonClick() {
+    // Discard the report and return to the previous screen
+    navigateToHomePage();
+}
+
+// Helper function to get current GPS coordinates
+function getCurrentGPSCoordinates() {
+    // Use GPS API to get current coordinates
+    return GPS.getCoordinates();
+}
+
+// Function to submit the noise report
+function submitReport(noiseType, audioData, location) {
+    // Send data to the backend
+    API.post("/reportNoise", {
+        type: noiseType,
+        audio: audioData,
+        location: location
+    });
+}
+
+
+
+####Changes and Additions####
+Dropdown Menu for Noise Type: Incorporated a selection mechanism for noise types.
+Audio Recording Functions: Clearly defined event handlers for recording and playback actions.
+Location Refresh: Added functionality to refresh GPS coordinates dynamically.
+Validation: Ensured that necessary inputs are validated before submission.
+User Feedback: Included success and error messages to enhance user interaction.
