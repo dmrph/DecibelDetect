@@ -38,7 +38,7 @@
     - I have looked up some simple ways to store data in the database
   
   - **Plans and Goals:**
-    - I plan on having a simple table set up that allows data to be stored
+    - Discuss with David how we can link his code so it uploads the data to Postgre
     - Look up more algorithms to store data in the database
 ---
 
