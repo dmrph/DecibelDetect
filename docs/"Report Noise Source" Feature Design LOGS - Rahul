@@ -1,6 +1,6 @@
-# 10/16/24
+10/16/24
 
-## "Report Noise Source" Feature Design
+"Report Noise Source" Feature Design
 
 -Pseudo Code for "Report Noise Source" Feature
 
@@ -37,7 +37,7 @@ saveReportToDatabase(report): Saves the report object to the database.
 Basic Design Diagram
 
 
-# "Report Noise Source" Feature Flow
+"Report Noise Source" Feature Flow
 
       +------------------+
       |   User Interface  |
@@ -85,7 +85,7 @@ Basic Design Diagram
       |  Message          |
       +------------------+
 
-# Component Descriptions
+Component Descriptions
 
 -User Interface: Interaction area for reporting noise.
 Select Noise Type: User selects from predefined categories.
@@ -122,7 +122,7 @@ Submit Button: Large, green button labeled "Submit Report"
 Cancel Button: Smaller button labeled "Cancel" to discard the report
 
 
-# 10/31/24
+10/31/24
 
 -Updated Pseudocode for "Report Noise Source" Feature
 
@@ -187,7 +187,7 @@ function submitReport(noiseType, audioData, location) {
     });
 }
 
-# Changes and Additions
+Changes and Additions
 
 -Added error handling for network issues during submission.
 Confirmation dialog before report submission.
@@ -205,9 +205,9 @@ Integration with Analytics: Tracking user interactions.
 Adaptive UI: Ensuring UI adapts to different screen sizes.
 Rationale for Additions
 
--These enhancements improve usability and user experience, contributing to a more robust application.
+-These enhancements improve usability and user experience.
 
-# Updated "Report Noise Source" feature based on the new code:
+Updated "Report Noise Source" feature based on the new code:
 
       +------------------+
       |   User Interface  |
