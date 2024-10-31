@@ -49,13 +49,13 @@
 
 ### Aaron:
   - **Goals from Last Week:** 
-    - 
+    - I'm planning on adding more functionality to the website and finalizing the UI
   
   - **Progress and Issues:** 
-    - 
+    - I've made good progress by adding simple buttons, but im struggling to format everything properly.
   
   - **Plans and Goals:**
-    - 
+    - My main goal this week is to format the UI in a way that looks better, as well as add a transition between the multiple parts of the website (noise alerts, maps, etc.)
 
 ---
 
