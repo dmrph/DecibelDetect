@@ -3,14 +3,15 @@
 ## Team Report
 
 ### Goals from Last Week:
-- 
+- Fix app
+- work on audio input
+- data processing
 
 ### Progress and Issues:
 - 
 
 ### Plans and Goals:
 - 
-  
 
 ---
 
@@ -18,13 +19,17 @@
 
 ### David:
   - **Goals from Last Week:**
-    - 
+    - Fix IOS and android version on Expo
   
   - **Progress and Issues:**
-    - 
+    - Neither versions are properly working
+    - Web is working, but decibels aren't being udapted
+    - Spoke to Nate to further dicuss, sent him program with comments where the issues are
   
   - **Plans and Goals:**
-    - 
+    - Speak with Nate on Friday
+    - Debug the issue for decibels not updating (start with adding functionality one by one
+    - Once app is properly functioning on web, debug android/ios versions
 
 ---
 
