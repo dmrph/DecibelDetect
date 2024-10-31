@@ -8,10 +8,10 @@
 - data processing
 
 ### Progress and Issues:
-- 
+- Continued working on debugging app
 
 ### Plans and Goals:
-- 
+- Finish debugging decibel updating with Nate
 
 ---
 
