@@ -232,7 +232,51 @@ new server. Your system should be well documented to enable new developers to ma
 - Aaron (UI Design) : With my role as the Ui Designer, my job is to create a homepage that is orginized and easy for users to navigate. This
   role is crucial to ensure that the final project looks clean.
 - Matt (Database Designer) : This role is crucial for the success of this project. My job as the Database Designer is to set up the database, PostgreSQL, which will be used to store the audio data that the app with gather and then will show the noise level of that area.
-- David (Product Owner, Full Stack Engineer) : My role as product owner will primarily be making sure everybody understands their role and can progress in the project. It is important for me to properly relay the end goal of the project to the team members. I will also be working on building the app for IOS and Android in react using expo, as well as working on the audio detection. 
+- David (Product Owner, Full Stack Engineer) : My role as product owner will primarily be making sure everybody understands their role and can progress in the project. It is important for me to properly relay the end goal of the project to the team members. I will also be working on building the app for IOS and Android in react using expo, as well as working on the audio detection.
+
+## 6. Team Process Description (Updated)
+
+### Software Toolset:
+- Define and justify the software toolset used, including programming languages, data sources, project trackers, and other tools.
+- **PostgreSQL**: Used to store the data
+- **Mocha/Chai**: We have chosen Mocha as our primary test-automation infrastructure along with Chai for assertions. Mocha is highly flexible and widely used in Node.js environments, aligning well with our backend in Node.js. Chai’s assertion library complements Mocha, making it easier to write clear, readable tests.
+  - *Adding Tests*: New tests can be added by creating test files in the `tests` folder, following our predefined test template. Each test should follow the Arrange-Act-Assert pattern to maintain consistency.
+- **GitHub Actions**: Selected as our CI service due to seamless integration with our GitHub repository and support for various workflows without extra setup. This service provides extensive community support, cost-effective scaling, and flexible configuration.
+
+---
+
+### Test Automation and Continuous Integration (CI) (New Section)
+
+#### CI Overview
+To support continuous integration, automated testing, and maintain code quality, we have set up a CI pipeline through GitHub Actions. This pipeline will run automated tests on every code push to the repository.
+
+#### Test Automation Infrastructure
+- **Mocha/Chai**: We chose Mocha and Chai due to their ease of integration with Node.js, flexibility in asynchronous testing, and strong community support.
+  - **Justification**: Mocha provides excellent support for asynchronous testing, which aligns well with our application’s data-fetching and API functions. The Chai assertion library allows clear syntax, enhancing readability.
+  - **Process**: New tests can be added to the `tests` folder, and should follow the Arrange-Act-Assert pattern for clarity and consistency.
+
+#### CI Service
+- **Selected CI Service**: **GitHub Actions**
+  - **Justification**: GitHub Actions provides seamless integration with our codebase, automates workflows effectively, and is scalable without extra cost for open-source repositories. Additionally, the team’s familiarity with GitHub simplifies CI adoption.
+  - **CI Setup**: We configured GitHub Actions to access our repository and run Mocha tests. The `.github/workflows/ci.yml` file contains the CI pipeline definition, specifying actions triggered by each pull request or push.
+  
+  | CI Service | Pros | Cons |
+  |------------|------|------|
+  | **GitHub Actions** | Seamless GitHub integration, flexible configurations, free for public repositories | Limited workflow concurrency on free plan |
+  | **Travis CI** | Strong Node.js support, extensive community usage | May require additional setup and limited concurrency on free tier |
+
+#### CI Workflow
+- **Trigger Events**: A CI build is triggered by:
+  - **Pull Requests**: Ensures any changes are stable before merging to main branches.
+  - **Pushes to Main**: Maintains quality in production-level branches.
+- **Tests Executed**: The CI build will run:
+  - Backend API tests to ensure data storage and retrieval reliability.
+  - UI component tests to verify basic interface functionality.
+  
+#### Instructions for Adding New Tests and Integrating with CI
+- To add a new test, team members should create test files in the `tests` folder, following the Mocha/Chai template.
+- CI automatically includes these tests in the pipeline when it detects changes in the `tests` directory, ensuring all new tests are run on each build.
+
 
 ### Milestones:
 #### For David (Product Owner, Full Stack Engineer):
