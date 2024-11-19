@@ -27,9 +27,6 @@ export default function RecordScreen() {
       console.error('Failed to start recording', err);
     }
   }
-  
-  
-  
 
   async function stopRecording() {
     if (!recording) return;
