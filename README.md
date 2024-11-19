@@ -15,5 +15,11 @@ DecibelDetect is a community-driven application aimed at helping users upload an
 3. **View**: Check the map to see areas with high or low noise pollution.
 4. **Plan**: Use the data to find quieter areas in your city or neighborhood.
 
+## How to Build and Run
+1. Clone repository on local machine
+2. In main directory: 'npx expo start'
+3. Record/Upload data
+4. View results
+
 ## Documentation
 For more detailed documentation on app features and usage, please refer to our [Requirements Document](docs/requirements/requirements.md).
