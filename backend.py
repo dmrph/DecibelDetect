@@ -1,5 +1,6 @@
 from fastapi import FastAPI, File, UploadFile
 from pydub import AudioSegment
+import uvicorn
 import base64
 import io
 
@@ -19,5 +20,5 @@ async def upload_audio(file_name: str, file_data: str):
         return {"error": str(e)}
 
 if __name__ == "__main__":
-    import uvicorn
+    
     uvicorn.run(app, host="0.0.0.0", port=8000)

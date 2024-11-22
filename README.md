@@ -15,6 +15,14 @@ DecibelDetect is a community-driven application aimed at helping users upload an
 3. **View**: Check the map to see areas with high or low noise pollution.
 4. **Plan**: Use the data to find quieter areas in your city or neighborhood.
 
+## Launch the Backend
+```bash
+pip install poetry
+poetry init
+poetry install 
+poetry run python backend
+```
+
 ## How to Build and Run
 1. Clone repository on local machine
 2. In main directory: 'npx expo start'
