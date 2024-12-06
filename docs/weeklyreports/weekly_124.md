@@ -19,7 +19,7 @@
 
 ### David:
   - **Goals from Last Week:**
-    - 
+    - Figure out the audio processing issues
   
   - **Progress and Issues:**
     - Switched to FastAPI with pydub running in the back for audio processing
