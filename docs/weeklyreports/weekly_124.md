@@ -22,10 +22,12 @@
     - 
   
   - **Progress and Issues:**
-    -
+    - Switched to FastAPI with pydub running in the back for audio processing
+    - Issues with connectivity
   
   - **Plans and Goals:**
-    - 
+    - Fully implement pydub
+    - Speak with Aaron about connectivity with website
 
 ---
 
