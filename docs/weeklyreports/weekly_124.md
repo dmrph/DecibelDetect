@@ -57,11 +57,12 @@
 
 ### Rahul:
   - **Goals from Last Week:** 
-    - 
+    - Set up development environment and explored project structure.
 
   - **Progress and Issues:** 
-    - 
+    - Setting up dependencies and exploring core modules.
+    - Checking sound calibration requirements with the team.
 
   - **Plans and Goals:**
-    - 
+    - Continue working on microphone calibration and start unit testing sound detection functions.
 ---
