@@ -2,3 +2,6 @@
 node_modules
 .expo
 package-lock.json
+Backend/node_modules
+Backend/.env
+Backend/package-lock.json
