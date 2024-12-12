@@ -27,6 +27,9 @@ class AudioUpload(BaseModel):
     file_name: str
     file_data: str
 
+# Define noise floor offset (adjust based on your microphone calibration)
+NOISE_FLOOR_OFFSET = 94  # Adjust this based on your hardware
+
 @app.post("/upload-audio/")
 async def upload_audio(audio: AudioUpload):
     logger.debug(f"Received file: {audio.file_name}")
@@ -53,8 +56,18 @@ async def upload_audio(audio: AudioUpload):
         # Extract decibel level or any other processing
         duration = len(sound) / 1000  # in seconds
         logger.debug(f"Audio duration: {duration} seconds")
-        loudness = sound.dBFS
-        return {"message": "Audio processed successfully", "duration": duration, "decibel_level": loudness}
+        raw_loudness = sound.dBFS
+        logger.debug(f"Raw dBFS value: {raw_loudness}")
+
+        # Calibrate the dBFS value to approximate SPL
+        calibrated_loudness = raw_loudness + NOISE_FLOOR_OFFSET
+        logger.debug(f"Calibrated SPL value: {calibrated_loudness}")
+
+        return {
+            "message": "Audio processed successfully",
+            "duration": duration,
+            "decibel_level": round(calibrated_loudness, 2),
+        }
 
     except base64.binascii.Error as e:
         logger.error(f"Base64 decoding error: {str(e)}")
