@@ -29,7 +29,7 @@ class AudioUpload(BaseModel):
     file_data: str
 
 # Define noise floor offset (adjust based on your microphone calibration)
-NOISE_FLOOR_OFFSET = 94  # Example: Adjust this based on your hardware
+NOISE_FLOOR_OFFSET = 90  # Example: Adjust this based on your hardware
 
 @app.post("/upload-audio/")
 async def upload_audio(audio: AudioUpload):
