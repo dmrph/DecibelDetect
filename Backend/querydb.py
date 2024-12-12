@@ -50,3 +50,13 @@ def insert_record(filename, duration, decibel_level):
 # Example usage of query_db function
 def get_all_records():
     return query_db("SELECT * FROM recordings")
+
+def clear_all_records():
+    try:
+        conn = sqlite3.connect(DB_FILE)
+        cursor = conn.cursor()
+        cursor.execute("DELETE FROM recordings")
+        conn.commit()
+        conn.close()
+    except Exception as e:
+        raise RuntimeError(f"Failed to clear records: {str(e)}")

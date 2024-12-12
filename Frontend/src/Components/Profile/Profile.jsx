@@ -1,25 +1,40 @@
 import React, { useEffect, useState } from 'react';
-import './Profile.css'; // Add styling as needed
+import './Profile.css';
 
 function Profile() {
   const [records, setRecords] = useState([]);
   const [error, setError] = useState(null);
 
-  useEffect(() => {
-    // Fetch decibel records on component mount
-    const fetchRecords = async () => {
-      try {
-        const response = await fetch('http://127.0.0.1:8000/get-recordings/');
-        if (!response.ok) {
-          throw new Error('Failed to fetch decibel records');
-        }
-        const data = await response.json();
-        setRecords(data.recordings);
-      } catch (err) {
-        setError(err.message);
+  const fetchRecords = async () => {
+    try {
+      const response = await fetch('http://127.0.0.1:8000/get-recordings/');
+      if (!response.ok) {
+        throw new Error('Failed to fetch decibel records');
       }
-    };
+      const data = await response.json();
+      setRecords(data.recordings);
+    } catch (err) {
+      setError(err.message);
+    }
+  };
 
+  const clearRecords = async () => {
+    try {
+      const response = await fetch('http://127.0.0.1:8000/clear-recordings/', {
+        method: 'DELETE',
+      });
+      if (!response.ok) {
+        throw new Error('Failed to clear records');
+      }
+      const result = await response.json();
+      alert(result.message); // Notify user of success
+      setRecords([]); // Clear records in the UI
+    } catch (err) {
+      setError(err.message);
+    }
+  };
+
+  useEffect(() => {
     fetchRecords();
   }, []);
 
@@ -49,6 +64,9 @@ function Profile() {
           ))}
         </tbody>
       </table>
+      <button onClick={clearRecords} className="clear-button footer-button">
+        Clear Records
+      </button>
     </div>
   );
 }

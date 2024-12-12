@@ -95,3 +95,17 @@ async def get_recordings():
     except Exception as e:
         logger.error(f"Error fetching recordings: {str(e)}")
         raise HTTPException(status_code=500, detail="Failed to fetch recordings.")
+
+@app.delete("/clear-recordings/")
+async def clear_recordings():
+    """
+    Delete all entries in the recordings table.
+    """
+    try:
+        from querydb import clear_all_records
+        clear_all_records()
+        logger.debug("All records cleared from the database.")
+        return {"message": "All records successfully deleted."}
+    except Exception as e:
+        logger.error(f"Error clearing records: {str(e)}")
+        raise HTTPException(status_code=500, detail="Failed to clear records.")
