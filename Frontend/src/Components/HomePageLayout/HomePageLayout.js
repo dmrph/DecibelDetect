@@ -8,7 +8,7 @@ export function HomePageLayout(){
       <ul>
         <li> <Link to='/Home' style = {HomePageLayout.a}>Home</Link></li>
         <li> <Link to='/Home/Upload' style = {HomePageLayout.a}>Upload</Link></li>
-        <li> <Link to='/Home/Profile' style = {HomePageLayout.a}>Profile</Link></li>
+        <li> <Link to='/Home/Profile' style = {HomePageLayout.a}>Data</Link></li>
       </ul>
     </nav>
     <Outlet />
