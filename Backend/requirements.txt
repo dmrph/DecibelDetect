@@ -5,3 +5,4 @@ pydub
 base64
 io
 logging
+sqlite3
