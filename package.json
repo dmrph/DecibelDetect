@@ -4,9 +4,8 @@
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
     "start:backend": "cd Backend && source ../venv/bin/activate && uvicorn backend:app --reload --host 127.0.0.1 --port 8000",
-    "start:frontend": "cd Frontend && npx expo start",
     "start:website": "cd Frontend && npm run start",
-    "start:all": "concurrently \"npm run start:backend\" \"npm run start:frontend\" \"npm run start:website\""
+    "start:all": "concurrently \"npm run start:backend\" \"npm run start:website\""
   },
   "dependencies": {
     "@expo/metro-runtime": "~3.1.3",
