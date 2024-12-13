@@ -2,6 +2,8 @@ import React, { useEffect } from 'react';
 import L from 'leaflet';
 import 'leaflet.heat';
 import './Heatmap.css';
+import 'leaflet/dist/leaflet.css';
+
 
 const Heatmap = () => {
   useEffect(() => {
