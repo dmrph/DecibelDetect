@@ -4,8 +4,19 @@ from fastapi.middleware.cors import CORSMiddleware
 import base64
 import io
 from pydub import AudioSegment
+from pydub.utils import which
 import logging
-from querydb import insert_record, get_all_records
+from querydb import insert_record, get_all_records, init_db  # Import init_db directly
+
+# Explicitly set ffmpeg and ffprobe paths
+AudioSegment.converter = which("C:\\ffmpeg\\bin\\ffmpeg.exe")
+AudioSegment.ffprobe = which("C:\\ffmpeg\\bin\\ffprobe.exe")
+
+# Logging setup
+logging.basicConfig(level=logging.DEBUG)
+logger = logging.getLogger(__name__)
+logger.info(f"FFmpeg path: {AudioSegment.converter}")
+logger.info(f"FFprobe path: {AudioSegment.ffprobe}")
 
 # Initialize FastAPI app
 app = FastAPI()
@@ -19,9 +30,9 @@ app.add_middleware(
     allow_headers=["*"],
 )
 
-# Logging configuration
-logging.basicConfig(level=logging.DEBUG)
-logger = logging.getLogger(__name__)
+# Initialize the database when the backend starts
+init_db()  # Automatically initialize the database schema
+logger.info("Database initialized successfully.")
 
 # Data model for incoming requests
 class AudioUpload(BaseModel):
@@ -45,14 +56,7 @@ async def upload_audio(audio: AudioUpload):
 
         # Load the audio file using pydub
         logger.debug("Attempting to process audio...")
-        try:
-            sound = AudioSegment.from_file(audio_file)
-        except Exception as e:
-            logger.error(f"Audio processing error: {str(e)}")
-            raise HTTPException(
-                status_code=400,
-                detail=f"Failed to process audio: {str(e)}",
-            )
+        sound = AudioSegment.from_file(audio_file)
         
         # Extract decibel level and duration
         duration = len(sound) / 1000  # in seconds
@@ -63,12 +67,8 @@ async def upload_audio(audio: AudioUpload):
         logger.debug(f"Calibrated SPL value: {calibrated_loudness}")
 
         # Save to SQLite database
-        try:
-            insert_record(audio.file_name, duration, calibrated_loudness)
-            logger.debug("Data saved to database successfully.")
-        except Exception as e:
-            logger.error(f"Database error: {str(e)}")
-            raise HTTPException(status_code=500, detail="Failed to save data to the database.")
+        insert_record(audio.file_name, duration, calibrated_loudness)
+        logger.debug("Data saved to database successfully.")
 
         return {
             "message": "Audio processed and saved successfully",
@@ -76,18 +76,12 @@ async def upload_audio(audio: AudioUpload):
             "decibel_level": round(calibrated_loudness, 2)
         }
 
-    except base64.binascii.Error as e:
-        logger.error(f"Base64 decoding error: {str(e)}")
-        raise HTTPException(status_code=400, detail=f"Failed to decode file data: {str(e)}")
     except Exception as e:
         logger.error(f"Unexpected error: {str(e)}")
         raise HTTPException(status_code=500, detail=f"Internal server error: {str(e)}")
 
 @app.get("/get-recordings/")
 async def get_recordings():
-    """
-    Fetch all stored decibel records.
-    """
     try:
         records = get_all_records()
         logger.debug(f"Retrieved {len(records)} records from the database.")
@@ -98,9 +92,6 @@ async def get_recordings():
 
 @app.delete("/clear-recordings/")
 async def clear_recordings():
-    """
-    Delete all entries in the recordings table.
-    """
     try:
         from querydb import clear_all_records
         clear_all_records()
