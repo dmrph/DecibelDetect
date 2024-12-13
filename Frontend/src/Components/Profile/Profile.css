@@ -1,68 +1,70 @@
+/* Profile page container */
 .profile-container {
-    padding: 20px;
-    text-align: center;
-  }
-  
+  padding: 20px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow */
+  margin-top: 100px; /* Moves the container down */
+}
+
+/* Table styling */
+.records-table {
+  width: 80%;
+  margin: 40px auto; /* Moves the table down further */
+  border-collapse: collapse;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+  background-color: #fff; /* White background for the table */
+}
+
+/* Header cells styling */
+.records-table th {
+  border: 1px solid #ddd;
+  background-color: #3a3a3a; /* Neutral dark gray header */
+  color: white; /* White text for contrast */
+  font-weight: bold;
+  padding: 12px;
+  text-align: center;
+  font-size: 1rem;
+}
+
+/* Table data cells styling */
+.records-table td {
+  border: 1px solid #ddd;
+  padding: 10px;
+  text-align: center;
+  font-size: 0.9rem;
+  color: #333; /* Ensures text is readable */
+}
+
+/* Alternate row coloring */
+.records-table tbody tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+/* Hover effect for rows */
+.records-table tbody tr:hover {
+  background-color: #f1f1f1;
+  cursor: pointer; /* Adds pointer cursor for interactivity */
+}
+
+/* Error message styling */
+.error {
+  color: red;
+  font-weight: bold;
+  margin: 10px auto;
+  text-align: center;
+}
+
+/* Adjusts table responsiveness */
+@media screen and (max-width: 768px) {
   .records-table {
-    width: 80%;
-    margin: 20px auto;
-    border-collapse: collapse;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    width: 95%;
   }
-  
+
   .records-table th,
   .records-table td {
-    border: 1px solid #ddd;
+    font-size: 0.8rem;
     padding: 8px;
   }
-  
-  .records-table th {
-    background-color: #f4f4f4;
-    font-weight: bold;
-  }
-  
-  .records-table tbody tr:hover {
-    background-color: #f1f1f1;
-  }
-  
-  .error {
-    color: red;
-    font-weight: bold;
-  }
-  
-  .profile-container {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: flex-start;
-    padding: 20px;
-  }
-  
-  .records-table {
-    width: 100%;
-    max-width: 800px;
-    margin: 20px 0;
-    border-collapse: collapse;
-  }
-  
-  .clear-button {
-    background-color: #e74c3c;
-    color: white;
-    border: none;
-    padding: 10px 20px;
-    margin-top: 20px;
-    cursor: pointer;
-    font-size: 16px;
-    border-radius: 5px;
-    align-self: center;
-  }
-  
-  .clear-button:hover {
-    background-color: #c0392b;
-  }
-  
-  .footer-button {
-    margin-top: auto;
-    margin-bottom: 20px;
-  }
-  
+}
