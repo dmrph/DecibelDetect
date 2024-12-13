@@ -226,19 +226,19 @@ new server. Your system should be well documented to enable new developers to ma
 
 ### Software Toolset:
 - Define and justify the software toolset used, including programming languages, data sources, project trackers, and other tools.
-- PostgreSQL: Used to store the data
+- SQLite: Used to store the data
 
 ### Roles:
 - Aaron (UI Design) : With my role as the Ui Designer, my job is to create a homepage that is orginized and easy for users to navigate. This
   role is crucial to ensure that the final project looks clean.
-- Matt (Database Designer) : This role is crucial for the success of this project. My job as the Database Designer is to set up the database, PostgreSQL, which will be used to store the audio data that the app with gather and then will show the noise level of that area.
+- Matt (Database Designer) : This role is crucial for the success of this project. My job as the Database Designer is to set up the database, SQLite, which will be used to store the audio data that the app with gather and then will show the noise level of that area.
 - David (Product Owner, Full Stack Engineer) : My role as product owner will primarily be making sure everybody understands their role and can progress in the project. It is important for me to properly relay the end goal of the project to the team members. I will also be working on building the app for IOS and Android in react using expo, as well as working on the audio detection.
 
 ## 6. Team Process Description (Updated)
 
 ### Software Toolset:
 - Define and justify the software toolset used, including programming languages, data sources, project trackers, and other tools.
-- **PostgreSQL**: Used to store the data
+- **SQLite**: Used to store the data
 - **Mocha/Chai**: We have chosen Mocha as our primary test-automation infrastructure along with Chai for assertions. Mocha is highly flexible and widely used in Node.js environments, aligning well with our backend in Node.js. Chai’s assertion library complements Mocha, making it easier to write clear, readable tests.
   - *Adding Tests*: New tests can be added by creating test files in the `tests` folder, following our predefined test template. Each test should follow the Arrange-Act-Assert pattern to maintain consistency.
 - **GitHub Actions**: Selected as our CI service due to seamless integration with our GitHub repository and support for various workflows without extra setup. This service provides extensive community support, cost-effective scaling, and flexible configuration.
@@ -374,7 +374,7 @@ To support continuous integration, automated testing, and maintain code quality,
 - A Node.js server using the Express.js framework will handle API requests and process data.
 
 ### Database:
-- Databases such as MongoDB or PostgreSQL will store user profiles and noise recording metadata. Pairing PostgreSQL with PostGIS will enhance geographical data handling.
+- Databases such as MongoDB or SQLite will store user profiles and noise recording metadata. Pairing SQLite with PostGIS will enhance geographical data handling.
 
 ### Collection/Visualization:
 - Smartphones’ built-in microphones will collect noise data, which will be geolocated using GPS. Integration with Google Maps API will render the noise data on a geographic map.
