@@ -3,7 +3,7 @@
   "version": "1.0.0",
   "main": "node_modules/expo/AppEntry.js",
   "scripts": {
-    "start:backend": "cd Backend && source ../venv/bin/activate && uvicorn backend:app --reload --host 127.0.0.1 --port 8000",
+    "start:backend": "cd Backend && venv\\Scripts\\activate && uvicorn backend:app --reload --host 127.0.0.1 --port 8000",
     "start:website": "cd Frontend && npm run start",
     "start:all": "concurrently \"npm run start:backend\" \"npm run start:website\""
   },
