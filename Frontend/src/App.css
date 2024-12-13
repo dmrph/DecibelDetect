@@ -36,3 +36,12 @@
     transform: rotate(360deg);
   }
 }
+
+.heatmap-container {
+  height: 80vh;
+  width: 100%;
+  margin: auto;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  overflow: hidden;
+}
